@@ -19,7 +19,7 @@ content:
   - Principal Investigators
   - Researchers
   - Grad Students
-  - Administration
+  - Members
   - Visitors
   - Alumni
 design:
