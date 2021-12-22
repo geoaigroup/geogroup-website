@@ -22,14 +22,14 @@
 
 main:
   - name: Research
-    url: '#projects'
+    url: 'projects'
     weight: 20
   - name: Dataset
-    url: '#dataset'
+    url: 'dataset'
     weight: 30
   - name: Team
-    url: '#people'
+    url: 'people'
     weight: 40
   - name: Publications
-    url: '#publications'
+    url: 'publications'
     weight: 50
