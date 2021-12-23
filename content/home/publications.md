@@ -38,7 +38,5 @@ design:
 ---
 
 {{% callout note %}}
-Check <a href="publication" target="_blank">All Publications</a>.
+ <a href="publication" target="_blank">All Publications →</a>.
 {{% /callout %}}
-
-{{% cta cta_link="./publication" cta_text="All Publications →" target="_blank"%}}
