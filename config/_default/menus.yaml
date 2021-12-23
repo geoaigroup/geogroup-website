@@ -23,7 +23,7 @@
 main:
   - name: Research
     url: '#project'
-    weight: 20
+    weight: 0
   - name: Dataset
     url: '#dataset'
     weight: 30
