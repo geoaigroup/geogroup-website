@@ -38,5 +38,5 @@ design:
 ---
 
 {{% callout note %}}
- <a href="publication" target="_blank" style="text-decoration: none">All Publications →</a>
+ <a href="publications" target="_blank" style="text-decoration: none">All Publications →</a>
 {{% /callout %}}
