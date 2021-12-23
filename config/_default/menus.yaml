@@ -21,15 +21,18 @@
     # weight: 60
 
 main:
+  - name: Home
+    url: '#top'
+    weight: 40
   - name: Research
     url: '#project'
-    weight: 20
+    weight: 50
   - name: Dataset
     url: '#dataset'
-    weight: 30
+    weight: 60
   - name: Team
     url: '#people'
-    weight: 40
+    weight: 70
   - name: Publications
     url: '#publication'
-    weight: 50
+    weight: 80
