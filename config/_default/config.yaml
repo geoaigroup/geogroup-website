@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Geospatial Earth Observation Research Group # Website name
+title: GEO Group # Website name
 baseurl: 'www.geogroup.site' # Website URL
-copyright: '© 2021 Geospatial Earth Observation Group' # Footer text, e.g. '© {year} Me'
+copyright: '© Geospatial Earth Observation Group, 2021' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
