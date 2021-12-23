@@ -18,4 +18,4 @@ design:
 
 <br>
 
-Geospatioal Earth Observation group description bla blab labla blabla
+group description bla blb bla blabla
