@@ -25,11 +25,11 @@ main:
     url: '#project'
     weight: 20
   - name: Dataset
-    url: 'dataset'
+    url: '#dataset'
     weight: 30
   - name: Team
-    url: 'people'
+    url: '#people'
     weight: 40
   - name: Publications
-    url: 'publication'
+    url: '#publication'
     weight: 50
