@@ -36,3 +36,9 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
+
+{{% callout note %}}
+Check my <a href="https://scholar.google.com/citations?user=1XOpq7oAAAAJ" target="_blank">All Publications</a>.
+{{% /callout %}}
+
+{{% cta cta_link="./publications/" cta_text="Meet the team →" %}}
