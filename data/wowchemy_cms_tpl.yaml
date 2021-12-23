@@ -440,7 +440,7 @@ collections:
   - name: publications
     label: Publications
     label_singular: Publication
-    folder: 'content/publication'
+    folder: 'content/allpublications'
     path: '{{slug}}/index'
     filter: {field: "cms_exclude"}
     create: true  # Allow users to create new documents in this collection
