@@ -16,7 +16,6 @@ image:
   focal_point: ""
   preview_only: false
 url_code: ""
-profile: false
 ---
 The first comprehensive Lebanese Building Footprints map was autonomously generated using Deep Learning Models that were developed and tested at the Lebanese National Remote Sensing Center - CNRS.
 We trained fully convolutional 'Encoder-Decoder' like Neural Networks on GEOEYE-1 high resolution satellite images (50 cm/pixel) from the Year 2013 for semantic segmentation of buildings' footprint.
