@@ -5,7 +5,7 @@
 
 title: GEO Group # Website name
 baseurl: 'www.geogroup.site' # Website URL
-copyright: '© Geospatial Earth Observation Group, 2021' # Footer text, e.g. '© {year} Me'
+copyright: '© 2021, Geospatial Earth Observation Group' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -22,10 +22,10 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
   hugoVersion:
-    min: '0.84.1'
+    min: '0.89.4'
     extended: true
 
 ############################
