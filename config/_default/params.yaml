@@ -91,7 +91,6 @@ projects:
   post_view: 2
   publication_view: 2
   talk_view: 2
-  profile: false
 comments:
   provider: ''
   commentable:
