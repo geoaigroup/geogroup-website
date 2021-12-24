@@ -7,8 +7,7 @@ bio: My research interests include earth observation, smart city transportation,
 interests:
   - Remote Sensing
   - Earth Observation
-  - Smart City
-  - Transportation
+  - Smart City Transportation
   - Geospatial Deep Learning
 social:
   - icon: envelope
