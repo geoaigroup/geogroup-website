@@ -61,6 +61,7 @@ time_format: '3:04 PM'
 address_format: en-us
 
 # Site features
+profile: false
 
 highlight: false
 math: false
