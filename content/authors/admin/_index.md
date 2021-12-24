@@ -31,7 +31,7 @@ organizations:
 superuser: true
 user_groups:
   - Members
-highlight_name: true
+highlight_name: false
 weight: 1
 email: ""
 ---
