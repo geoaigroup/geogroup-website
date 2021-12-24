@@ -26,4 +26,6 @@ design:
   show_interests: false
   show_role: true
   show_social: true
+  # Show user's organizations/affiliations?
+  show_organizations: false
 ---
