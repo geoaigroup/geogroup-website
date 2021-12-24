@@ -5,7 +5,6 @@ widget: portfolio
 
 # This file represents a page section.
 headless: true
-profile: false
 
 # Order that this section appears on the page.
 weight: 65
