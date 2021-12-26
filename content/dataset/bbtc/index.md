@@ -7,7 +7,7 @@ featured: false
 ---
 <!--StartFragment-->
 
- The dataset is a collection of RGB images of buildings taken from satellite images. Each building is annotated as residential or not.
+ The dataset is a collection of RGB images of Beirut buildings taken from satellite images. Each building is annotated as residential or not.
 
 <!--EndFragment-->
 
