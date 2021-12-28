@@ -18,7 +18,7 @@ collections:
     create: true
     fields:
       - {label: "Widget Type (https://wowchemy.com/docs/page-builder/)", name: "widget", widget: "string", required: true}
-      - {label: 'Your reference for this widget (e.g. recent-posts)', name: 'widget_id', widget: 'string', default: 'my-widget-123'}
+      #- {label: 'Your reference for this widget (e.g. recent-posts)', name: 'widget_id', widget: 'string', default: 'my-widget-123'}
       - {label: "Headless?", name: "headless", widget: "hidden", default: true}
       - label: "Widget position"
         name: "weight"
