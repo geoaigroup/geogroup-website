@@ -1,12 +1,12 @@
 ---
 title: Hassan Nasrallah
-role: Research Assistant
+role: Computer Vision Engineer
 bio: null
 interests:
-  - Programming
-  - Algorithms
   - Deep Learning
   - Data Science
+  - Programming
+  - Algorithms
 social:
   - icon: envelope
     icon_pack: fas
