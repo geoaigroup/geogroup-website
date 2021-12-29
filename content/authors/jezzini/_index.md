@@ -1,7 +1,7 @@
 ---
 title: Abdul Karim Gizzini
 role: Post Doctoral Researcher
-avatar_filename: profile_pic.jpg
+avatar_filename: avatar.jpg
 bio: null
 interests:
   - Machine Learning
