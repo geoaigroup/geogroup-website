@@ -1,7 +1,7 @@
 ---
 widget: hero
 headless: true
-weight: 0
+weight: 10
 title: null
 hero_media: welcome.jpg
 design:
