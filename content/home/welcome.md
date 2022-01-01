@@ -5,7 +5,7 @@ weight: 10
 title: null
 hero_media: welcome.jpg
 design:
-  columns: "2"
+  columns: "1"
   css_style: null
   css_class: null
   background:
