@@ -10,6 +10,7 @@ design:
   css_class: null
   background:
     image: welcome.jpg
+    image_darken: 0.5
 ---
 
 <br>
