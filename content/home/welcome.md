@@ -9,7 +9,7 @@ design:
   css_style: null
   css_class: null
   background:
-    image: welcome.jpg
+    image: welcome.png
     image_darken: 0.5
     text_color_light: true
 ---
