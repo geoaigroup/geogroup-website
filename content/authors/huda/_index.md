@@ -15,7 +15,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/huda-hammoud-205b86113/
 organizations:
-  - name: Accenture
+  - name: Accenture Middle East
     url: null
 email: ""
 superuser: false
