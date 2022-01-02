@@ -10,7 +10,7 @@ design:
   css_class: null
   background:
     image: welcome.png
-    image_darken: 0.3
+    image_darken: ""
     text_color_light: true
 ---
 <br>
