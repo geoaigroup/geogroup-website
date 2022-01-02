@@ -13,6 +13,8 @@ design:
     image_darken: ""
     text_color_light: true
 ---
+<!--StartFragment-->Unlocking the secrets of satellite data...<!--EndFragment-->
+
 <br>
 
  Geospatial Earth Observation (GEO) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. 
