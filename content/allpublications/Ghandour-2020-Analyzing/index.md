@@ -17,13 +17,14 @@ url_slides: ""
 url_poster: ""
 url_code: ""
 
+title: "Analyzing Factors Associated with Fatal Road Crashes: A Machine Learning Approach"
 publication: International Journal of Environmental Research and Public Health
 publication_short: IJERPH
 
 featured: false
 date: 2020-06-01T00:00:00Z
 
-title: Analyzing Factors Associated with Fatal Road Crashes: A Machine Learning Approach
+
 tags: []
 projects:
   - LRCP
