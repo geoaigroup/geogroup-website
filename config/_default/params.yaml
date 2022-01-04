@@ -25,7 +25,7 @@ phone:
 address:
   street: 
   city: Beirut
-  region: Beirut
+  region: Lebanon
   postcode: ''
   country: Lebanon
   country_code: LB
@@ -40,6 +40,7 @@ address:
 contact_links:
   - icon: twitter
     icon_pack: fab
+    name: Twitter
     link: https://twitter.com/AliJGhandour
 #  - icon: comments
 #    icon_pack: fas
