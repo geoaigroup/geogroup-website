@@ -37,5 +37,5 @@ main:
     url: '#recentpublications'
     weight: 80
   - name: Contact Us
-     url: contact
+     url: 'contact'
      weight: 90 
