@@ -1,5 +1,5 @@
 ---
-title: "Analyzing factors associated with fatal road crashes: A machine learning approach"
+title: "Analyzing Factors Associated with Fatal Road Crashes: A Machine Learning Approach"
 authors:
 - admin
 - Huda Hammoud
@@ -65,3 +65,6 @@ projects: [LRCP]
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+{{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
