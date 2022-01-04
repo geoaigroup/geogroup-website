@@ -36,6 +36,6 @@ main:
   - name: Publications
     url: '#recentpublications'
     weight: 80
-  - name: Contac Us
-    url: 'contact'
+  - name: Contact Us
+    url: '#contact'
     weight: 90
