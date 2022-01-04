@@ -17,7 +17,7 @@ url_slides: ""
 url_poster: ""
 url_code: ""
 
-publication: *International Journal of Environmental Research and Public Health*
+publication: International Journal of Environmental Research and Public Health
 publication_short: IJERPH
 
 featured: false
