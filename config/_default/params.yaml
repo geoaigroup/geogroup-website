@@ -20,8 +20,8 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: aghandour@cnrs.edu.lb
-phone: 888 888 88 88
+email: info@geogroup.ai
+phone: 
 address:
   street: 
   city: Beirut
@@ -29,15 +29,18 @@ address:
   postcode: ''
   country: Lebanon
   country_code: LB
-coordinates:
-  latitude: ''
-  longitude: ''
-directions: 
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+#coordinates:
+#  latitude: ''
+#  longitude: ''
+#directions: 
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
 contact_links:
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/AliJGhandour
 #  - icon: comments
 #    icon_pack: fas
 #    name: Discuss on Forum
