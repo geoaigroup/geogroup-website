@@ -1,6 +1,7 @@
 ---
 publication_types:
   - "2"
+
 authors:
   - admin
   - Huda Hammoud
@@ -17,9 +18,12 @@ url_code: ""
 slides: null
 
 title: "Analyzing Factors Associated with Fatal Road Crashes: A Machine Learning Approach"
-publication: International Journal of Environmental Research and Public Health
+publication: "*International Journal of Environmental Research and Public Health*"
 publication_short: IJERPH
 publishDate: 2020-06-23T00:00:00Z
+
+# Show publication and sharing statistics? (requires valid doi)
+add_badge: true
 
 projects:
   - LRCP
