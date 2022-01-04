@@ -65,6 +65,3 @@ projects: [LRCP]
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
