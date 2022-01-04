@@ -1,6 +1,6 @@
 ---
 title: All Publications
-#cms_exclude: true
+cms_exclude: true
 url: "/allpublications/"
 
 # View.
