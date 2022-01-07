@@ -1,19 +1,22 @@
 ---
 slides: ""
 url_pdf: ""
-summary: The first comprehensive Lebanese Building Footprints autonomously
-  generated using Deep Learning.
+title: Buildings' Footprints Map
+summary: The first comprehensive Lebanese Building Footprints autonomously generated using Deep Learning.
+
+tags:
+  - Deep Learning
+
 authors: []
 url_video: ""
 date: 2021-12-13T09:07:29.350Z
 url_slides: ""
-title: Buildings' Footprints Map
-tags:
-  - Deep Learning
+
+
 categories: []
 image:
   caption: ""
-  focal_point: ""
+  focal_point: Smart
   preview_only: false
 url_code: ""
 ---
