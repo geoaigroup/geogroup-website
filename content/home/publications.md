@@ -36,7 +36,3 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
-
-{{% callout note %}}
- <a href="allpublications" target="_blank" style="text-decoration: none">All Publications →</a>
-{{% /callout %}}
