@@ -3,7 +3,7 @@ publication_types:
   - "3"
 
 authors:
-  - hasan
+  - hassan
   - admin
 
 url_pdf: https://arxiv.org/pdf/2111.06812

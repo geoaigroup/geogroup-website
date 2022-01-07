@@ -3,7 +3,7 @@ publication_types:
   - "3"
 
 authors:
-  - hasan
+  - hassan
   - Abed Ellatif Samhat
   - Ghaleb Faour
   - admin
