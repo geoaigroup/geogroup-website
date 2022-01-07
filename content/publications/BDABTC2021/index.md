@@ -38,13 +38,13 @@ projects:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption:
   focal_point: ""
   preview_only: false
   
   
 featured: false
-doi: "10.1007/s12517-020-06295-6"
+#doi: ""
 
 
 abstract: "Buildings classification using satellite images is becoming more important for several applications such as damage assessment, resource allocation, and population estimation. We focus, in this work, on buildings damage assessment (BDA) and buildings type classification (BTC) of residential and non-residential buildings. We propose to rely solely on RGB satellite images and follow a 2-stage deep learning-based approach, where first, buildings' footprints are extracted using a semantic segmentation model, followed by classification of the cropped images. Due to the lack of an appropriate dataset for the residential/non-residential building classification, we introduce a new dataset of high-resolution satellite images. We conduct extensive experiments to select the best hyper-parameters, model architecture, and training paradigm, and we propose a new transfer learning-based approach that outperforms classical methods. Finally, we validate the proposed approach on two applications showing excellent accuracy and F1-score metrics."
