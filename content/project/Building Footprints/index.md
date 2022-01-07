@@ -50,10 +50,9 @@ image:
 #  image: embankment_density.png
 #  caption: Coarse-grained bulk density in railway embankment
 
-
----
-
-# Summary
+header:
+  image: "welcome.png"
+  caption: ""
 ---
 
 The first comprehensive Lebanese Building Footprints map was autonomously generated using Deep Learning Models that were developed and tested at the Lebanese National Remote Sensing Center - CNRS.
