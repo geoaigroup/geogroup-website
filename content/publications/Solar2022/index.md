@@ -3,7 +3,7 @@ publication_types:
   - "3"
 
 authors:
-  - Hasan Nasrallah
+  - hasan
   - Abed Ellatif Samhat
   - Ghaleb Faour
   - admin
