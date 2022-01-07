@@ -24,7 +24,7 @@ image:
   placement: ""
   caption: ""
   focal_point: Smart
-  preview_only: false
+  preview_only: true
   alt_text: ""
   
 #links:
