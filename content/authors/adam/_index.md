@@ -1,6 +1,6 @@
 ---
 title: Adam Issa
-role: Operations Research Developer
+role: Senior Product Engineer
 organizations:
   - name: IBS Software
     url: null
