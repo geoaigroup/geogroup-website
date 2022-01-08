@@ -34,7 +34,8 @@ image:
 
 featured: false
 tags: []
-#date: 2020-06-01T00:00:00Z
+date: May 1, 2018
+#date: 2018-05-01T00:00:00Z
 doi: 10.3390/buildings8050065
 
 abstract: Automated building extraction from high-resolution satellite imagery is a challenging research problem, and several issues remain with respect to the variety of variables to be accounted for. In this paper we present an approach for building detection using multiple cues. We use the shadow, shape, and color features of buildings to propose our approach, known as Building Detection with Shadow Verification (BDSV). BDSV has three main pillars, which are:(1) tile building detection (TBD) to detect roof tile buildings;(2) flat building detection (FBD) to detect non-tile flat buildings according to shape features; and (3) results fusion used to fuse and aggregate results from previous blocks. Analyses performed over different study areas reveal high quality percentage and precision metrics, exceeding 95%. Performance analysis over the SztaKi–Inria and Istanbul datasets shows that BDSV outperforms benchmark algorithms.
