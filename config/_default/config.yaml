@@ -5,7 +5,7 @@
 
 title: GEO Group # Website name
 baseurl: 'www.geogroup.site' # Website URL
-copyright: '© 2021, Geospatial Earth Observation Group' # Footer text, e.g. '© {year} Me'
+copyright: '© {year}, Geospatial Earth Observation Group' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
