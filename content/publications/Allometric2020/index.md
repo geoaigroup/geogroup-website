@@ -22,8 +22,7 @@ slides: null
 
 title: "Allometric scaling of road accidents using social media crowd-sourced data"
 publication: "*Elsevier Physica A: Statistical Mechanics and its Applications*"
-#publication_short: IJERPH
-#publishDate: 2020-06-23T00:00:00Z
+publishDate: May 2020
 
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
