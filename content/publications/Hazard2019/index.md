@@ -35,7 +35,7 @@ image:
 
 featured: false
 tags: []
-#date: 2020-06-01T00:00:00Z
+date: "2019-04-15T00:00:00Z"
 doi: 10.1016/j.physa.2019.01.025
 
 abstract: The safety hazard and the additional costs on transportation due to road accidents invite the necessity to minimize their impact. In this paper, we study the spatial-clustering behavior and hazard vulnerability of car accidents that occurred in Lebanon between 2015 and 2018. Assessment of spatial clustering of accidents and hot spots densities were examined using the Global G method of spatial autocorrelation and Getis–Ord G i∗ statistics. A novel Road Hazard Index (H i) was proposed to assess hazard vulnerability of road networks and to develop a road hazard prediction model.

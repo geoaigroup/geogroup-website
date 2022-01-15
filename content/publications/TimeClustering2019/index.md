@@ -35,7 +35,7 @@ image:
 
 featured: false
 tags: []
-#date: 2020-06-01T00:00:00Z
+date: "2019-02-15T00:00:00Z"
 doi: 10.1016/j.physa.2018.10.036
 
 abstract: This manuscript analyzes the temporal properties of sequences of car accidents in Lebanon from 2015 to 2018, using data from the Lebanese Road Accident Platform (LRAP). The Allan Factor that is a well suited methodology for investigating the time-clustering in point processes, revealed that the car accidents occurred over the whole Lebanese territory are characterized by a significant scaling behavior for timescales larger than about 2 weeks, with a clear cyclic component at 1 day. The analysis performed on car accident sequences in some specific areas of Lebanon revealed the presence of cycles varying from 1 day to 2 weeks as a function of the distance from Beirut, the capital city of Lebanon.
