@@ -34,7 +34,7 @@ image:
 
 featured: false
 tags: []
-#date: 2020-06-01T00:00:00Z
+date: "2019-03-12T00:00:00Z"
 doi: 10.1007/s11760-018-1363-0
 
 abstract: The human eye can easily identify shadows of illuminated objects. However, automatically detecting such shadows with the use of computer tools is a challenging research problem. In this paper, an approach toward successful building shadow detection based on multi-threshold image segmentation technique is introduced and analyzed. Accuracy assessment and computing time analyses conducted over seven study areas from two reference datasets show the high performance of our proposed approach in detecting real shadows with a 93.75% accuracy.

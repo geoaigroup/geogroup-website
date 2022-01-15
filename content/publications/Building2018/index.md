@@ -34,7 +34,7 @@ image:
 
 featured: false
 tags: []
-date: May 2018
+date: "2018-05-18T00:00:00Z"
 #date: 2018-05-01T00:00:00Z
 doi: 10.3390/buildings8050065
 
