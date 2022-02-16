@@ -29,9 +29,9 @@ address:
   postcode: 'PO Box 11 828'
   country: Lebanon
   country_code: LB
-#coordinates:
-#  latitude: ''
-#  longitude: ''
+coordinates:
+  latitude: '33.8577207'
+  longitude: '35.5676237'
 #directions: 
 #office_hours:
 #  - 'Monday 10:00 to 13:00'
