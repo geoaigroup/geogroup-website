@@ -25,7 +25,7 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumini
 ---
 <!--StartFragment-->
 
