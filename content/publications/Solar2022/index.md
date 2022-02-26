@@ -5,6 +5,8 @@ publication_types:
 authors:
   - hassan
   - Abed Ellatif Samhat
+  - Yilei Shi
+  - Xiaoxiang Zhu
   - Ghaleb Faour
   - admin
 
