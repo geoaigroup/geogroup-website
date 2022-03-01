@@ -1,6 +1,6 @@
 ---
 title: Abed Ellatif Samhat
-role: Professro
+role: Professor
 avatar_filename: avatar
 interests:
   - Telecommunciations
