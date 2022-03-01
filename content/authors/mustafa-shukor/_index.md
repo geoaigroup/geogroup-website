@@ -32,4 +32,4 @@ superuser: false
 user_groups:
   - Collaborators
 ---
-I am currently stumbling in the fierce race of Machine Learning. To avoid overfitting, I have been trained on a bunch of stuff, to help my "biological" models to generalize better when facing out of distribution samples on the way. Unfortunately, some of my models have overfitted slightly on some datasets, especially Deep Learning and Computer Vision. I believe that, mostly, the ideas are behind scientific breakthroughs, and foresight is behind the good ones.
+I am mainly interested in Deep Learning and my current research spans several topics, such as Computer vision, NLP and Multimodal learning. During my graduate studies, I focused on Applied Math, Deep Learning and Computer Vision. Previously I did internships in several companies and spent some time in academic labs.
