@@ -1,5 +1,5 @@
 ---
-title: Mustafa Shukor
+title: Abed Ellatif Samhat
 role: Research Engineer
 avatar_filename: avatar
 interests:

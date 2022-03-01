@@ -1,5 +1,5 @@
 ---
-title: Mustafa Shukor
+title: Jamal Haydar
 role: Research Engineer
 avatar_filename: avatar
 interests:
