@@ -27,7 +27,7 @@ social:
     icon_pack: fab
     icon: github
 organizations:
-  - name: MLIA group - Sorbonne
+  - name: Sorbonne University
 superuser: false
 user_groups:
   - Collaborators
