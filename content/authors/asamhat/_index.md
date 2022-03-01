@@ -10,7 +10,7 @@ social:
       header: false
     icon_pack: fas
     icon: envelope
-    link: mailto:mustafa.shukor97 at gmail.com
+    link: mailto:samhat at ul.edu.lb
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/samhat/
