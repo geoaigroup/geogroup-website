@@ -26,8 +26,7 @@ social:
     link: https://github.com/mshukor
     icon_pack: fab
     icon: github
-organizations:
-  - name: Sorbonne University
+organizations: []
 superuser: false
 user_groups:
   - Collaborators
