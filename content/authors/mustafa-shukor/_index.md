@@ -10,7 +10,7 @@ social:
       header: false
     icon_pack: fas
     icon: envelope
-    link: mailto:mustafa.shukor97 at gmail.com
+    link: mailto:mshukor@geogroup.ai
   - display:
       header: false
     link: https://twitter.com/MustafaShukor1
