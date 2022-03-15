@@ -2,7 +2,6 @@
 title: Ali Kawtharani
 role: Graduate Student
 bio: null
-active: false
 interests:
   - Programming
   - Machine Learning
@@ -23,6 +22,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  -
 ---
 I am a CCE graduate student with interest in machine learning research. Currently working on a crop classification project using deep learning models. My aim is to leave a positive environmental impact through my research work.
