@@ -2,6 +2,7 @@
 title: Ali Kawtharani
 role: Graduate Student
 bio: null
+active: false
 interests:
   - Programming
   - Machine Learning
