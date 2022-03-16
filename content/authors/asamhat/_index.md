@@ -26,3 +26,10 @@ user_groups:
   - Collaborators
 weight: 1
 ---
+<!--StartFragment-->
+
+**Abed Ellatif Samhat** received the engineering diploma in electrical and electronics from the Lebanese University, Beirut, Lebanon, in 2000, and the master degree and the Ph.D. degree in computer science from Pierre et Marie Curie University, Paris, France, in 2001 and 2004, respectively. From 2005 to 2008, he was a Research Engineer with France Telecom Group, Orange Labs–Paris, where he was involved in several national and European projects, including ambient networks and Gandalf. In 2009, he joined Lebanese University, where he is currently a Professor at the Faculty of Engineering. His areas of interest include heterogeneous wireless networks, IoT, and security.
+
+
+
+<!--EndFragment-->
