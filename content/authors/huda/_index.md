@@ -20,7 +20,7 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Alumini
+  - Alumni
 ---
 Huda is a Data Engineering Consultant at Accenture with a unique blend of  managerial skills , leadership, and ability to deliver results on time. As part of applied intelligence team, she leverages her data engineering and data analytics skills to deliver data driven consulting services.
 
