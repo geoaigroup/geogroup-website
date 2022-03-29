@@ -14,10 +14,11 @@ subtitle:
 
 content:
   # Contact (edit or remove options as required)
+  
   email: info@geogroup.ai
-  #phone:
+  phone:
   address:
-    #street: 450 Serra Mall
+    street: 450 Serra Mall
     city: Mansourieh
     region: Beirut
     postcode: '11 828'
