@@ -15,14 +15,14 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
   email: info@geogroup.ai
-  phone:
+  #phone:
   address:
-    #street:
-	city:  Mansourieh
-	region: Beirut
-	postcode: '11 828'
-	country: Lebanon
-	country_code: LB
+    #street: 450 Serra Mall
+    city: Mansourieh
+    region: Beirut
+    postcode: '11 828'
+    country: Lebanon
+    country_code: LB
   coordinates:
 	latitude: '33.8577207'
 	longitude: '35.5676237'
