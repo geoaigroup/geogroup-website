@@ -29,3 +29,5 @@ design:
   # Show user's organizations/affiliations?
   show_organizations: false
 ---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
