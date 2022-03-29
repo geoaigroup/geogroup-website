@@ -24,8 +24,8 @@ content:
     country: Lebanon
     country_code: LB
   coordinates:
-	latitude: '33.8577207'
-	longitude: '35.5676237'
+    latitude: '33.8577207'
+    longitude: '35.5676237'
 #  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 #  office_hours:
 #    - 'Monday 10:00 to 13:00'
