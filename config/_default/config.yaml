@@ -79,7 +79,7 @@ related:
       weight: 100
     - name: categories
       weight: 70
-security:
-  _merge: deep
-sitemap:
-  _merge: deep
+#security:
+#  _merge: deep
+#sitemap:
+#  _merge: deep
