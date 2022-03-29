@@ -1,17 +1,17 @@
 ---
-widget: blank
+widget: hero
 headless: true
 weight: 10
 title: null
 hero_media: welcome.jpg
 design:
-  columns: "1"
-  css_style: null
-  css_class: null
-  background:
-    image: welcome.png
-    image_darken: ""
-    text_color_light: true
+  columns: 1'
+  css_style:
+  css_class:
+#  background:
+#    image: welcome.png
+#    image_darken: ""
+#    text_color_light: true
 ---
 <!--StartFragment-->Unlocking the secrets of satellite data..<!--EndFragment-->
 
