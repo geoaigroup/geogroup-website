@@ -8,10 +8,10 @@ design:
   columns: 1'
   css_style:
   css_class:
-#  background:
-#    image: welcome.png
-#    image_darken: ""
-#    text_color_light: true
+  background:
+    image: welcome.png
+    image_darken: ""
+    text_color_light: true
 ---
 <!--StartFragment-->Unlocking the secrets of satellite data..<!--EndFragment-->
 
