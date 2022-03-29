@@ -58,36 +58,6 @@ locale:
   address_format: en-us
   
   
-# Contact (edit or remove options as required)
-
-email: info@geogroup.ai
-phone: 
-address:
-  street: 
-  city:  Mansourieh
-  region: Beirut
-  postcode: '11 828'
-  country: Lebanon
-  country_code: LB
-coordinates:
-  latitude: '33.8577207'
-  longitude: '35.5676237'
-#directions: 
-#office_hours:
-#  - 'Monday 10:00 to 13:00'
-#  - 'Wednesday 09:00 to 10:00'
-#appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Twitter
-    link: https://twitter.com/AliJGhandour
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#    link: 'https://discourse.gohugo.io'
-
-
 # Site features
 
 features:
