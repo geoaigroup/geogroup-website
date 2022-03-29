@@ -48,18 +48,18 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
-markup:
-  _merge: deep  
 #markup:
-#  defaultMarkdownHandler: goldmark
-#  goldmark:
-#    renderer:
- #     unsafe: true
-#  highlight:
-#    codeFences: false
-#  tableOfContents:
-#    startLevel: 2
-#    endLevel: 3
+#  _merge: deep  
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
 imaging:
   resampleFilter: lanczos
   quality: 75
