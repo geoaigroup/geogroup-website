@@ -17,7 +17,7 @@ content:
   email: info@geogroup.ai
   phone:
   address:
-    street:
+    #street:
 	city:  Mansourieh
 	region: Beirut
 	postcode: '11 828'
