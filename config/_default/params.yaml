@@ -5,19 +5,59 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: native
-font_size: M
-
+appearance:
+  theme: minimal
+  theme_night: minimal
+  font: native
+  font_size: M
+  
 # SEO
 
-site_type: ResearchOrganization
-local_business_type: ''
-org_name: 'Geospatial Earth Observation group'
-description: Geospatial Earth Observation (GEO) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. Evidence gained from our models and data analysis allows for a robust humanitarian response and provides policymakers and key stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.
-twitter: 'https://twitter.com/AliJGhandour'
+marketing:
+  seo:
+    site_type: ResearchOrganization
+    local_business_type: ''
+    org_name: 'Geospatial Earth Observation group'
+    description: 'Geospatial Earth Observation (GEO) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. Evidence gained from our models and data analysis allows for a robust humanitarian response and provides policymakers and key stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.'
+    twitter: ''https://twitter.com/AliJGhandour''
+  analytics:
+    google_analytics: 'G-MB4KJ0Q1Q3'
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: c
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: false
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false	
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+  
+  
 # Contact (edit or remove options as required)
 
 email: info@geogroup.ai
@@ -47,89 +87,41 @@ contact_links:
 #    name: Discuss on Forum
 #    link: 'https://discourse.gohugo.io'
 
-# Site header
-
-main_menu:
-  enable: true
-  align: c
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: false
-  highlight_active_link: true
-
-# Localization
-
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
 
 # Site features
-profile: false
 
-highlight: false
-math: false
-diagram: false
-privacy_pack: false
-show_related:
-  post: false
-  project: false
-  publication: false
-  talk: false
-reading_time: true
-section_pager: false
-sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-comments:
-  provider: ''
-  commentable:
-    page: true
-    post: true
-    docs: true
-    project: true
-    publication: true
-    talk: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
     api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: mapnik
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: 'G-MB4KJ0Q1Q3'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: main
-  local_backend: false
-icon:
-  pack:
-    ai: true
+    zoom: 15
