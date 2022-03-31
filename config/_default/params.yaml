@@ -42,7 +42,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year}, Geospatial Earth Observation Group'
+    notice: '© {year}, Geospatial Earth Observation group'
     license:
       enable: false
       allow_derivatives: false
