@@ -31,7 +31,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: c
+    align: "c"
     show_logo: true
     show_language: false
     show_day_night: true
@@ -61,21 +61,18 @@ locale:
 profile: false
 
 features:
-  profile:
-    enable: false
   syntax_highlighter:
     enable: false
     extra_languages:
-      - r
       - latex
   math:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
+#  repository:
+#    url: 'https://github.com/<username>/<repository>'
+#    content_dir: content
+#    branch: main
   avatar:
     gravatar: false
     shape: circle
