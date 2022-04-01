@@ -57,8 +57,6 @@ locale:
   
   
 # Site features
-profile: false
-
 features:
   syntax_highlighter:
     enable: false
@@ -120,15 +118,9 @@ projects:
   publication_view: 2
   talk_view: 2
 
-# Social
-# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing: true
-#sharing_image = "sharing.png"
-#sharing_image_en = "sharing-en.png"
-#sharing_image_ca = "sharing-ca.png"
-
 
 #Advanced
-# Show estimated reading time for posts? (true/false)
 reading_time: true
 section_pager: false
+profile: false
+sharing: true
