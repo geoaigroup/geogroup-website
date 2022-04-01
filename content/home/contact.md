@@ -15,14 +15,6 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
   email: "info@geogroup.ai"
-  phone:
-  address:
-    street: 450 Serra Mall
-    city: Mansourieh
-    region: Beirut
-    postcode: '11 828'
-    country: Lebanon
-    country_code: LB
 #  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 #  office_hours:
 #    - 'Monday 10:00 to 13:00'
