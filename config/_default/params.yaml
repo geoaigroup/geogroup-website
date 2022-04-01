@@ -58,6 +58,7 @@ locale:
   
   
 # Site features
+profile: false
 
 features:
   profile:
