@@ -60,6 +60,7 @@ locale:
 # Site features
 
 features:
+  profile: false
   syntax_highlighter:
     enable: false
     extra_languages:
