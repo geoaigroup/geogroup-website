@@ -11,6 +11,21 @@ appearance:
   font: native
   font_size: M
   
+# SEO
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'Geospatial Earth Observation group'
+    description: 'Geospatial Earth Observation (GEO) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. Evidence gained from our models and data analysis allows for a robust humanitarian response and provides policymakers and key stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.'
+    twitter: 'https://twitter.com/AliJGhandour'
+  analytics:
+    google_analytics: 'G-MB4KJ0Q1Q3'
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
 # Site header
 header:
   navbar:
@@ -47,8 +62,8 @@ profile: false
 features:
   syntax_highlighter:
     enable: false
-    extra_languages:
-      - latex
+#    extra_languages:
+#      - latex
   math:
     enable: false
   privacy_pack:
@@ -80,7 +95,6 @@ features:
     zoom: 15
 
 # Extensions
-
 extensions:
   cms:
     branch: main
@@ -92,7 +106,6 @@ extensions:
     enable: true
 
 # Citation style
-
 publications:
   date_format: January 2006
   citation_style: apa
@@ -101,17 +114,21 @@ icon:
   pack:
     ai: true
 
-# SEO
-marketing:
-  seo:
-    site_type: Organization
-    local_business_type: ''
-    org_name: 'Geospatial Earth Observation group'
-    description: 'Geospatial Earth Observation (GEO) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. Evidence gained from our models and data analysis allows for a robust humanitarian response and provides policymakers and key stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.'
-    twitter: 'https://twitter.com/AliJGhandour'
-  analytics:
-    google_analytics: 'G-MB4KJ0Q1Q3'
-    baidu_tongji: ''
-  verification:
-    google: ''
-    baidu: ''
+# Configuration of project pages.
+projects:
+  post_view: 2
+  publication_view: 2
+  talk_view: 2
+
+# Social
+# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
+sharing: true
+#sharing_image = "sharing.png"
+#sharing_image_en = "sharing-en.png"
+#sharing_image_ca = "sharing-ca.png"
+
+
+#Advanced
+# Show estimated reading time for posts? (true/false)
+reading_time = true
+section_pager: false
