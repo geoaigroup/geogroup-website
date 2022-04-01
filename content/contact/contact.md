@@ -14,7 +14,6 @@ subtitle:
 
 content:
   # Contact (edit or remove options as required)
-  
   email: info@geogroup.ai
   phone:
   address:
