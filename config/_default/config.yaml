@@ -6,7 +6,7 @@
 title: GEO Group # Website name
 baseURL: 'https://www.geogroup.ai/' # Website URL
 
-
+timeout: 600000
 ############################
 ## LANGUAGE
 ############################
@@ -32,19 +32,23 @@ module:
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+# Get last modified date for content from Git?
+enableGitInfo: true
 summaryLength: 30
 paginate: 100
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+
+# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-disableAliases: true
+#disableAliases: true
+
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
@@ -64,7 +68,6 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
-timeout: 600000
 taxonomies:
   tag: tags
   category: categories
