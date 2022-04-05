@@ -1,10 +1,10 @@
 ---
 title: Ghaleb Faour
-role: Director - National Center for Remote Sensing 
+role: Director
 avatar_filename: avatar
 interests:
-  - Telecommunciations
-  - Computer Networks
+  - Remote Sensing
+  - Urban Studies
 social:
   - display:
       header: false
@@ -20,7 +20,7 @@ social:
     icon_pack: ai
     icon: google-scholar
 organizations:
-  - name: National Center for Remote Sensing - National Council for Scientific Research
+  - name: National Center for Remote Sensing - CNRS
 superuser: false
 user_groups:
   - Collaborators
