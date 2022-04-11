@@ -24,7 +24,6 @@ organizations:
 superuser: false
 user_groups:
   - Collaborators
-weight: 2
 ---
 <!--StartFragment-->
 

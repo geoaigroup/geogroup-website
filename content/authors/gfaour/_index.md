@@ -23,7 +23,6 @@ organizations:
 superuser: false
 user_groups:
   - Collaborators
-weight: 1
 ---
 <!--StartFragment-->
 
