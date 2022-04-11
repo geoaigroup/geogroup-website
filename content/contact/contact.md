@@ -14,10 +14,10 @@ subtitle:
 
 content:
   # Contact (edit or remove options as required)
-  email: "info@geogroup.ai"
+  email: info@geogroup.ai
   phone:
   address:
-    street: 450 Serra Mall
+    street:
     city: Mansourieh
     region: Beirut
     postcode: '11 828'
@@ -26,17 +26,11 @@ content:
   coordinates:
     latitude: '33.8577207'
     longitude: '35.5676237'
-#  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-#  office_hours:
-#    - 'Monday 10:00 to 13:00'
-#    - 'Wednesday 09:00 to 10:00'
-#  appointment_url: 'https://calendly.com'
-
   contact_links:
-  - icon: "twitter"
-    icon_pack: "fab"
-    name: "Follow us on Twitter"
-    link: "https://twitter.com/AliJGhandour"
+	  - icon: "twitter"
+		icon_pack: "fab"
+		name: "Follow us on Twitter"
+		link: "https://twitter.com/AliJGhandour"
 #  - icon: comments
 #    icon_pack: fas
 #    name: Discuss on Forum
