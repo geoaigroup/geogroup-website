@@ -89,7 +89,7 @@ features:
       show_logo: false
   map:
     provider: 'mapbox'
-    api_key: 'pk.eyJ1IjoicmVtb3RlLXNlbnNpbmciLCJhIjoiY2wxdXN6bHQ0MnFzcDNqbzJ1NTBwZjd5eiJ9.19gnXOZ9fzZP8IbouMFJxw'
+    api_key: ''
     zoom: 15
 
 # Extensions
