@@ -88,8 +88,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
+    provider: 'mapbox'
+    api_key: 'pk.eyJ1IjoicmVtb3RlLXNlbnNpbmciLCJhIjoiY2wxdXN6bHQ0MnFzcDNqbzJ1NTBwZjd5eiJ9.19gnXOZ9fzZP8IbouMFJxw'
     zoom: 15
 
 # Extensions
