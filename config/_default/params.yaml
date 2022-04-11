@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night: minimal
+  theme_night:
   font: native
   font_size: M
   
@@ -30,7 +30,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: "c"
+    align: c
     show_logo: true
     show_language: false
     show_day_night: true
