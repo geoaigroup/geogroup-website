@@ -11,7 +11,7 @@ design:
   background:
     image: welcome.png
     image_darken: ""
-    text_color_light: true
+    text_color_light: false
 ---
 <!--StartFragment-->Unlocking the secrets of satellite data..<!--EndFragment-->
 
