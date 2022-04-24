@@ -50,6 +50,12 @@
   
     {{ end }}
   </div>
+  
+    {{ if $has_attachments }}
+  <div class="btn-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
 
   {{/* Add Almetric and Dimension badges */}}
   <div class="ml-3">
