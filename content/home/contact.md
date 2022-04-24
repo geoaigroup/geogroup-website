@@ -44,9 +44,9 @@ content:
       attachments: true
   
 design:
-  columns: '1'
+  columns: '2'
   background:
-    # color: "#FFFFF8"
+     color: "#FFFFF8"
 
 advanced:
   css_style: "padding-bottom: 0px;"	
