@@ -34,7 +34,7 @@ main:
     url: '#people'
     weight: 70
   - name: Publications
-    url: '#publications'
+    url: '#publication'
     weight: 80
   - name: Contact Us
     url: '#contact'
