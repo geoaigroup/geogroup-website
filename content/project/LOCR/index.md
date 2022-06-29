@@ -1,7 +1,7 @@
 ---
 slides: ""
 url_pdf: ""
-summary: Lebanese Observatory for Crashes on Road (LOCR)
+summary: Lebanese Observatory for Crashes on Road
 authors: []
 url_video: ""
 date: 2017-08-22T10:59:15+01:00
