@@ -1,7 +1,7 @@
 ---
 slides: ""
 url_pdf: ""
-summary: Lebanese Road Crashes Platform
+summary: Lebanese Observatory for Crashes on Road (LOCR)
 authors: []
 url_video: ""
 date: 2017-08-22T10:59:15+01:00
