@@ -20,7 +20,8 @@ url_poster: ""
 url_code: ""
 slides: null
 
-title: "Solar Potential Assessment using Multi-Class Buildings Segmentation from Aerial Images"
+title: "Lebanon Solar Rooftop Potential Assessment Using Buildings Segmentation From Aerial Images"
+publication: "*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*"
 
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
