@@ -25,7 +25,7 @@ publication: "*Signal, Image and Video Processing*"
 add_badge: true
 
 projects:
-  - "Building Footprints"
+  - urban-monitoring
   
 image:
   caption: null

@@ -25,7 +25,7 @@ publication: "*Buildings*"
 add_badge: true
 
 projects:
-  - "Building Footprints"
+  - urban-monitoring
   
 image:
   caption: null

@@ -16,7 +16,7 @@ abstract: "Natural disasters and wars wreak havoc not only on individuals and cr
 add_badge: true
 
 projects:
-  - buildings-damage-assessment
+  - urban-monitoring
   
 image:
   caption: null

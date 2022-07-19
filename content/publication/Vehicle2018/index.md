@@ -17,7 +17,7 @@ abstract: "High resolution remote sensing data can provide worldwide images rapi
 add_badge: true
 
 projects:
-  - "Building Footprints"
+  - urban-monitoring
 
 image:
   caption: null

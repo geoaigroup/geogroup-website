@@ -27,7 +27,7 @@ add_badge: true
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - sci-net
+  - urban-monitoring
 
 
 # Featured image
