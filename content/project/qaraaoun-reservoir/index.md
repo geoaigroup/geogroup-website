@@ -11,4 +11,4 @@ image:
   filename: featured.png
 ---
 Qaraaoun Reservoir Volume Estimation from Aerial Images
-http://geo.cnrs.edu.lb/qaraaoun
+<a href="http://geo.cnrs.edu.lb/qaraaoun" target="_blank">link</a>.
