@@ -9,7 +9,7 @@ tags:
 
 
 date: 2021-12-13T09:07:29.350Z
-external_link: http://geo.cnrs.edu.lb/urbanmap/ 
+
 ---
 
 The first comprehensive Lebanese Building Footprints map was autonomously generated using Deep Learning Models that were developed and tested at the Lebanese National Remote Sensing Center - CNRS.
