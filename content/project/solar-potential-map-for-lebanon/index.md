@@ -13,6 +13,3 @@ tags:
 #  preview_only: false
 ---
 Estimating the solar potential of buildings' rooftops at a large scale is a fundamental step for every country to utilize its solar power efficiently. However, such estimation becomes time-consuming and costly if done through on-site measurements. This project uses deep learning-based multi-class instance segmentation to extract buildings' footprints from satellite images. We propose a photovoltaic panels placement algorithm to estimate the solar potential of every rooftop, which results in Lebanon's first buildings' solar potential map. We report average and total solar potential per district and localize regions corresponding to the highest solar potential yield.
-
-
-Paper preprint can be fetched <a href="https://arxiv.org/abs/2111.11397" target="_blank">here.</a>

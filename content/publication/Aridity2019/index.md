@@ -26,8 +26,8 @@ publication: "*Acta Geophysica*"
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
-#projects:
-#  - 
+projects:
+  - qaraaoun-reservoir
 
 image:
   caption: null
