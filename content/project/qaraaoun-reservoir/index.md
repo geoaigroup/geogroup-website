@@ -6,10 +6,8 @@ draft: false
 featured: false
 tags:
 - Deep Learning
-#external_link: https://arxiv.org/abs/2111.11397
-#image:
-#  filename: capture.png
-#  focal_point: Smart
-#  preview_only: false
+external_link: http://geo.cnrs.edu.lb/qaraaoun
+image:
+  filename: featured.png
 ---
 Qaraaoun Reservoir Volume Estimation from Aerial Images
