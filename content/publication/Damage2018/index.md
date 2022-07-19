@@ -15,6 +15,9 @@ abstract: "Natural disasters and wars wreak havoc not only on individuals and cr
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
+projects:
+  - buildings-damage-assessment
+  
 image:
   caption: null
   focal_point: ""

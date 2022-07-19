@@ -24,8 +24,8 @@ publication: "*Signal, Image and Video Processing*"
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
-#projects:
-#  - LRCP
+projects:
+  - "Building Footprints"
   
 image:
   caption: null

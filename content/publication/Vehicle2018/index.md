@@ -16,6 +16,9 @@ abstract: "High resolution remote sensing data can provide worldwide images rapi
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
+#projects:
+#  - 
+
 image:
   caption: null
   focal_point: ""

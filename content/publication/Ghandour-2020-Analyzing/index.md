@@ -26,7 +26,8 @@ publishDate: 2020-06-23T00:00:00Z
 add_badge: true
 
 projects:
-  - LRCP
+  - LOCR
+  
 image:
   caption: null
   focal_point: ""

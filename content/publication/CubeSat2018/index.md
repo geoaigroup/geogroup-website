@@ -12,6 +12,9 @@ publication: In *International Electronic Conference on Remote Sensing*
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
+#projects:
+#  - 
+
 image:
   caption: null
   focal_point: ""

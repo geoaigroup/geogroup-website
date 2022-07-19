@@ -26,7 +26,7 @@ publication: "*Elsevier Physica A: Statistical Mechanics and its Applications*"
 add_badge: true
 
 projects:
-  - LRCP
+  - LOCR
   
 image:
   caption: null

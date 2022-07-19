@@ -28,7 +28,7 @@ publishDate: May 2020
 add_badge: true
 
 projects:
-  - LRCP
+  - LOCR
   
 image:
   caption: null
