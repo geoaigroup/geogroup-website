@@ -16,8 +16,8 @@ abstract: "High resolution remote sensing data can provide worldwide images rapi
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
 
-#projects:
-#  - 
+projects:
+  - building-footprints
 
 image:
   caption: null
