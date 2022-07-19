@@ -1,58 +1,15 @@
 ---
-slides: ""
-url_pdf: ""
 title: Buildings' Footprints Map
 summary: The first comprehensive Lebanese Building Footprints autonomously generated using Deep Learning.
 
+draft: false
+featured: false
 tags:
   - Deep Learning
 
-authors: []
-url_video: ""
+
 date: 2021-12-13T09:07:29.350Z
-url_slides: ""
-
-
-categories: []
-
-# Featured image
-# To use, place an image named `featured.jpg/png` in your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-# Set `preview_only` to `true` to just use the image for thumbnails.
-image:
-  placement: ""
-  caption: ""
-  focal_point: Smart
-  preview_only: true
-  alt_text: ""
   
-#links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/jp_morr
-
-#url_pdf: https://cordis.europa.eu/docs/projects/cnect/9/619439/080/reports/001-VELaSSCoFinalReport1summary.pdf
-#url_slides: ""
-#url_video: ""
-#url_poster: ''
-#url_project: http://www.cimne.com/projects/velassco/index.html
-#url_source: ''
-#url_code: https://github.com/velassco/VELASSCO
-
-# gallery captions
-#gallery_item:
-#- album: velassco
-#  image: embankment.png
-#  caption: Railway embankment test case
-#- album: velassco
-#  image: embankment_density.png
-#  caption: Coarse-grained bulk density in railway embankment
-
-#header:
-#  image: "welcome.png"
-#  caption: ""
 ---
 
 The first comprehensive Lebanese Building Footprints map was autonomously generated using Deep Learning Models that were developed and tested at the Lebanese National Remote Sensing Center - CNRS.
