@@ -47,6 +47,6 @@ design:
   flip_alt_rows: true
 ---
 {{% callout note %}}
-GEO group has available openings for motivated summer interns and talented graduate students.
+GEO group has available openings for summer internship and graduate thesis/project.
 Interested candidates should send resume and cover letter to <a href = "mailto: info@geogroup.ai">info@geogroup.ai</a>.
 {{% /callout %}}
