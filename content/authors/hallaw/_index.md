@@ -12,7 +12,7 @@ social:
     icon_pack: fas
     icon: envelope
     link: mailto:allawhussein at gmail dot com
-	- display:
+  - display:
       header: false
     link: https://github.com/allawhussein
     icon_pack: fab
