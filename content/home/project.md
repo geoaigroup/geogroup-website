@@ -46,3 +46,6 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: true
 ---
+{{% callout note %}}
+GEO group has openings for motivated summer interns and talented graduate students. if you interested, send your resume and cover letter to info at geogroup dot ai
+{{% /callout %}}
