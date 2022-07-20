@@ -10,7 +10,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:98hasan.n at gmail.com
+    link: mailto:hnasrallah at geogroup.ai
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/hassan-nasrallah-381b41187/

@@ -9,7 +9,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:md22.dimassi at gmail.com
+    link: mailto:mdimassi at geogroup.ai
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/mohammad-m-al-dimassi-130362182/
