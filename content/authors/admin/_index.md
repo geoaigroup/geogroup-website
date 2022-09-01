@@ -1,6 +1,7 @@
 ---
 title: Ali J. GHANDOUR
 role: Associate Researcher
+avatar_filename: alighandourprofilepic2022.jpg
 bio: My research interests include earth observation, smart city transportation,
   urban features detection from high resolution aerial imagery and geospatial
   deep learning.
@@ -31,12 +32,12 @@ social:
 organizations:
   - name: National Center for Remote Sensing - CNRS
     url: http://rsensing.cnrs.edu.lb/
+email: ""
 superuser: true
 user_groups:
   - Members
 highlight_name: false
 weight: 1
-email: ""
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
