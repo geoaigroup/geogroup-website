@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b597e35-446b-4787-be45-7af52843bacb/deploy-status)](https://app.netlify.com/sites/geogroup-website/deploys)
+
 # Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
 
 The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
