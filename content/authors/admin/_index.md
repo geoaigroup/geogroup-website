@@ -1,7 +1,7 @@
 ---
 title: Ali J. GHANDOUR
 role: Associate Researcher
-avatar_filename: alighandourprofilepic2022.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include earth observation, smart city transportation,
   urban features detection from high resolution aerial imagery and geospatial
   deep learning.
