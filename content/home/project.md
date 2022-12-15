@@ -47,6 +47,6 @@ design:
   flip_alt_rows: true
 ---
 {{% callout note %}}
-GEO group has available openings for summer internship and graduate thesis/project.
+GEOAI group has available openings for summer internship and graduate thesis/project.
 Interested candidates should send resume and cover letter using Contact widget below</a>.
 {{% /callout %}}
