@@ -12,6 +12,6 @@ content:
 
 design:
   columns: "2"
-  view: 3
+  view: masonry
   flip_alt_rows: true
 ---
