@@ -1,5 +1,5 @@
 ---
-title: Thamer M. Jamel
+title: Thamer Muhammed Jamel
 role: Professor
 avatar_filename: avatar.jpg
 bio: null
