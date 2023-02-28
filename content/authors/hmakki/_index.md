@@ -13,9 +13,9 @@ social:
 #  - icon: researchgate
 #    icon_pack: fab
 #    link: https://www.researchgate.net/profile/Nadia_Mouawad
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/nadia-mouawad-922927107/
+#  - icon: linkedin
+#    icon_pack: fab
+#    link: https://www.linkedin.com/in/nadia-mouawad-922927107/
 organizations:
   - name: GEOspatial Artificial Intelligence (GEOAI)
     url: null
