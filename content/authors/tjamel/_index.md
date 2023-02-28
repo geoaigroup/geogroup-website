@@ -28,7 +28,3 @@ user_groups:
 ---
 
 Thamer M. Jamel received a Doctoral degree in communication engineering in 1997. He is a Professor at the communication engineering department at University of Technology, Baghdad, Iraq since 2009. He has more than 20 years' experience in teaching undergraduate and postgraduate students, supervised over 18 theses and published more than 40 papers.
-
-
-
- I'm also intereseted in Adaptive Digital Signal Processing (Algorithms and Applications) for Communications System, Modern Communications Systems ( OFDM , UWB , Cognitive Radio , MIMO, ....etc), Digital Signal Processing • DSP uP’s based or FPGA based adaptive filtering system, General uP’s based systems for Communications Systems.
