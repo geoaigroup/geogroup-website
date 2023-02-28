@@ -12,10 +12,10 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=RJZrProAAAAJ&hl=en
-- icon: scopus
+  - icon: scopus
     icon_pack: ai
     link: https://www.scopus.com/authid/detail.uri?authorId=55772023100
- - icon: researchgate
+  - icon: researchgate
     icon_pack: fab
     link: https://www.researchgate.net/profile/DrThamer_Jamel
 organizations:
