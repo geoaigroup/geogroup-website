@@ -4,7 +4,7 @@ role: Professor
 avatar_filename: avatar.jpg
 bio: null
 interests:
-  - Aaptive Digital Signal Processing
+  - Adaptive Digital Signal Processing
 social:
   - icon: envelope
     icon_pack: fas
