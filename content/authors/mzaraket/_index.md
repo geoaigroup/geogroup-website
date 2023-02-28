@@ -13,7 +13,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/mohammad-zaraket-b974a9192/
 organizations:
-  - name: Geospatial Earth Observation group (GEO)
+  - name: GEOspatial Artificial Intelligence (GEOAI)
     url: null
 email: ""
 superuser: false

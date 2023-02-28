@@ -15,7 +15,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/hassan-nasrallah-381b41187/
 organizations:
-  - name: Geospatial Earth Observation group (GEO)
+  - name: GEOspatial Artificial Intelligence (GEOAI)
     url: null
 email: ""
 superuser: false
