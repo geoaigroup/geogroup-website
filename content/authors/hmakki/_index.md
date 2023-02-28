@@ -24,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-Trained in STFA in civil 3D. Created Digital IUL using ArcGIS online dashboard in the final year project using ArcGIS. Self learner.
+Hanaa earned her bachelor's degree in surveying engineering from the Islamic university of Lebanon (IUL). She then joined STFA company as an intern in civil 3D. Hanaa is experienced in ArcGIS online dashboard, hardworker and willing to learn by herself more about ArcGIS.
