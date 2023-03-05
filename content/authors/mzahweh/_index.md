@@ -13,7 +13,7 @@ social:
     icon_pack: fab
     link: https://github.com/MohammadHasanZahweh/
 organizations:
-  - name: GEOspatial Artificial Intelligence (GEOAI)
+  - name: Lebanese University
     url: null
 email: ""
 superuser: false
