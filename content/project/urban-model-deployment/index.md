@@ -9,7 +9,7 @@ tags:
 
 
 date: 2023-03-15T09:07:29.350Z
-
+weight: 1
 ---
 
 <a href="http://geoai.cnrs.edu.lb/urbanmodels/" target="_blank">LINK</a>.
