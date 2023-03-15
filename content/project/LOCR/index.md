@@ -1,12 +1,12 @@
 ---
 slides: ""
 url_pdf: ""
-summary: Lebanese Observatory for Crashes on Road
+summary: LOCR serves to mine and analyze spatio-temporal road crashes trends using representative time-series.
 authors: []
 url_video: ""
 date: 2017-08-22T10:59:15+01:00
 url_slides: ""
-title: LOCR
+title: Lebanese Observatory for Crashes on Road
 tags:
   - Other
 categories: []
