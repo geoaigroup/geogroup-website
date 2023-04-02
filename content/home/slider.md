@@ -40,7 +40,7 @@ content:
         color: '#333'
         brightness: 0.5
         media: welcome.png
-		fit: contain
+		fit: cover
       link:
         icon: graduation-cap
         icon_pack: fas
