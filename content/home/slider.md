@@ -25,13 +25,14 @@ content:
         media: welcome.png
         fit: cover
     - title: 'it is official now!🎉 😍 🤴 💪 👏 🎈'
-      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our solution is made public via following repo:<br><a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" targe=_blank>https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge'</a>
+      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our solution is made public via following repo:<br><a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" targe=_blank>https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge</a>'
       align: left
       background:
         position: center
         color: '#555'
         brightness: 0.7
         media: NASAHarvest.jpeg
+        fit: cover
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
       align: right
