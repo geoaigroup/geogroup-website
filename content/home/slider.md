@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: 400px
+  slide_height: 500px
   is_fullscreen: false
   # Automatically transition through slides?
   loop: true
@@ -32,6 +32,15 @@ content:
         color: '#555'
         brightness: 0.7
         media: NASAHarvest.jpeg
+        fit: cover
+    - title: Sci-Net
+      content: 'Our new paper "Sci-Net: scale-invariant model for buildings segmentation from aerial imagery" was just published online:<br><a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank>https://link.springer.com/article/10.1007/s11760-023-02520-3</a><br>You can interact with Sci-Net model via:<br><a href="http://geoai.cnrs.edu.lb/urbanmodels/" target=_blank>http://geoai.cnrs.edu.lb/urbanmodels/</a>'
+      align: right
+      background:
+        position: center
+        color: '#333'
+        brightness: 0.5
+        media: SciNet.jpeg
         fit: cover
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
