@@ -19,9 +19,9 @@ content:
       content: Take a look at what we're working on...
       align: center
       background:
-        position: right
-        color: '#666'
-        brightness: 0.7
+		position: right
+		color: '#666'
+		brightness: 0.7
 		media: welcome.png
 		fit: contain
     - title: Lunch & Learn ☕️
