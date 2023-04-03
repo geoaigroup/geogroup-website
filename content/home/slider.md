@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: 250px
+  slide_height: 350px
   is_fullscreen: false
   # Automatically transition through slides?
   loop: true
@@ -20,7 +20,7 @@ content:
       align: right
       background:
         position: left
-        color: '#fff'
+        color: '#ffffff' #An HTML color value.
         brightness: 0.7
         media: NASAHarvest.png
         fit: contain
