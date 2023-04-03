@@ -30,8 +30,8 @@ content:
       background:
         position: left
         color: '#FFFFFF' #An HTML color value.
-        brightness: 0.9
-        media: aerial.jpg
+        brightness: 0.7
+        media: contact.jpg
         fit: cover
     - title: Sci-Net👏🚀
       content: 'Our new paper <a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank> Sci-Net: </a>"scale-invariant model for buildings segmentation from aerial imagery" was just published online.'
@@ -41,7 +41,7 @@ content:
         color: '#555'
         brightness: 0.7
         media: scinet.jpg
-        fit: contain
+        fit: cover
     - title: Openings!🎓📚
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
       align: center
@@ -49,7 +49,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: contact.jpg
+        media: aerial.jpg
         fit: cover
       link:
         icon: graduation-cap
