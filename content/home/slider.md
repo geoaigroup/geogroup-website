@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: 350px
+  slide_height: 300px
   is_fullscreen: false
   # Automatically transition through slides?
   loop: true
@@ -16,7 +16,7 @@ design:
 content:
   slides:
     - title: 'it is official now!🎉🤴👏 '
-      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our github solution: <a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" target=_blank>Repo</a>'
+      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants. Our github solution: <a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" target=_blank>Repo</a>'
       align: right
       background:
         position: left
@@ -31,7 +31,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: SciNet.jpeg
+        media: welcome.png
         fit: cover
     - title: Openings!
       content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter (single pdf file) using Contact widget below'
