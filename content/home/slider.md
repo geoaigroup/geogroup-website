@@ -34,7 +34,7 @@ content:
         media: welcome.png
         fit: cover
     - title: Openings!
-      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter.'
+      content: 'Internship and graduate thesis openings available. Send resume and cover letter.'
       align: right
       background:
         position: center
