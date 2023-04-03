@@ -29,7 +29,7 @@ content:
       align: center
       background:
         position: left
-        color: '#FFFFFF' #An HTML color value.
+        color: '#555' #An HTML color value.
         brightness: 0.7
         media: contact.jpg
         fit: cover
