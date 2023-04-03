@@ -16,8 +16,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: 'Geospatial Earth Observation group'
-    description: 'Geospatial Earth Observation using Artificial Intelligence (GEOAI) group harnessess the power of artificial intelligence to unlock the potential of satellite data by focusing on AI-assisted mapping spanning various applications, including geospatial Earth observation, urban analytics, transportation, and features extraction from aerial imagery. We develop tools integrating deep learning techniques to automate the process of urban features extraction and collect crowd-sourcing data from various sources. Evidence gained from our models and data analysis allows for a robust humanitarian response and provides policymakers and key stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.'
+    org_name: 'GEOspatial Artificial Intelligence (GEOAI) group'
+    description: 'GEOspatial Artificial Intelligence (GEOAI) is a research group located at the National Center for Remote Sensing - CNRS, Lebanon. Our research is focused on AI-assisted mapping spanning various applications, including urban analytics, transportation, waterbodies monitoring and crop-yield estimation. We develop tools to automate the process of urban features extraction and crowd-source data collection. Evidence gained from our models allows for a robust humanitarian response and provides policymakers/key-stakeholders with insights to design tailored regulations and safety countermeasures for urban social good. GEOAI group provides a unique opportunity for geospatial training in a professional research environment in Lebanon. We have hosted more than 40 students at both undergraduate and graduate levels since 2016.'
     twitter: 'https://twitter.com/AliJGhandour'
   analytics:
     google_analytics: 'G-MB4KJ0Q1Q3'
@@ -41,7 +41,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year}, GEOAI group'
+    notice: '© {year}, GEOAI group - built using <a href="https://github.com/wowchemy/wowchemy-hugo-themes/tree/main/starters/research-group" target=_blank>Wowchemy Hugo Research Group Theme</a>'
     license:
       enable: false
       allow_derivatives: false
