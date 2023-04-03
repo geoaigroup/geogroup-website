@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: 400px
+  slide_height: 250px
   is_fullscreen: false
   # Automatically transition through slides?
   loop: true
@@ -19,7 +19,7 @@ content:
       content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our github solution: <a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" target=_blank>Repo</a>'
       align: right
       background:
-        position: center
+        position: left
         color: '#fff'
         brightness: 0.7
         media: NASAHarvest.png
