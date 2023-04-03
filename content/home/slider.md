@@ -25,7 +25,7 @@ content:
         media: welcome.png
         fit: cover
     - title: 'GeoUrban-AI tool🏠🧠'
-      content: 'The <a href="http://geoai.cnrs.edu.lb/urbanmodels/" target=_blank> tool</a> has been extremley welcomed by the community and received enormous amount of positive feedback so far.'
+      content: '<a href="http://geoai.cnrs.edu.lb/urbanmodels/" target=_blank> GeoUrban-AI</a> tool has been extremley welcomed by the community and received enormous amount of positive feedback so far.'
       align: center
       background:
         position: left
