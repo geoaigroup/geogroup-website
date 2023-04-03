@@ -25,7 +25,7 @@ content:
         media: NASAHarvest1.jpg
         fit: cover
     - title: Sci-Net
-      content: 'Our new paper "Sci-Net: scale-invariant model for buildings segmentation from aerial imagery" was just published online:<br><a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank>https://link.springer.com/article/10.1007/s11760-023-02520-3</a>'
+      content: 'Our new paper "Sci-Net: scale-invariant model for buildings segmentation from aerial imagery" was just published online: <a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank>LINK</a>'
       align: right
       background:
         position: center
