@@ -22,8 +22,8 @@ content:
         position: left
         color: '#FFFFFF' #An HTML color value.
         brightness: 0.7
-        media: NASAHarvest.png
-        fit: contain
+        media: welcome.png
+        fit: cover
     - title: Sci-Net
       content: 'Our new paper "Sci-Net: scale-invariant model for buildings segmentation from aerial imagery" was just published online: <a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank>LINK</a>'
       align: right
