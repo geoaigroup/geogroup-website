@@ -22,8 +22,8 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: NASAHarvest.jpeg
-        fit: contain
+        media: NASAHarvest1.jpeg
+        fit: cover
     - title: Sci-Net
       content: 'Our new paper "Sci-Net: scale-invariant model for buildings segmentation from aerial imagery" was just published online:<br><a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank>https://link.springer.com/article/10.1007/s11760-023-02520-3</a>'
       align: right
