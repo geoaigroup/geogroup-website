@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: 300px
+  slide_height: 250px
   is_fullscreen: false
   # Automatically transition through slides?
   loop: true
@@ -34,7 +34,7 @@ content:
         media: welcome.png
         fit: cover
     - title: Openings!
-      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter (single pdf file) using Contact widget below'
+      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter.'
       align: right
       background:
         position: center
