@@ -49,7 +49,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: blatic.jpg
+        media: baltic.jpg
         fit: cover
       link:
         icon: graduation-cap
