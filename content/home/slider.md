@@ -29,17 +29,17 @@ content:
       align: right
       background:
         position: center
-        color: '#333'
-        brightness: 0.5
+        color: '#555'
+        brightness: 0.7
         media: SciNet.jpeg
         fit: cover
     - title: Openings!
-      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter using Contact widget below'
+      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter (single pdf file) using Contact widget below'
       align: right
       background:
         position: center
-        color: '#333'
-        brightness: 0.5
+        color: '#555'
+        brightness: 0.7
         media: welcome.png
         fit: cover
       link:
