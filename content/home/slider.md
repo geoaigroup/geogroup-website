@@ -16,7 +16,7 @@ design:
 content:
   slides:
     - title: 'it is official now!🎉🤴👏 '
-      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our solution is made public via following repo:<br><a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" targe=_blank>https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge</a>'
+      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our github solution:<br><a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" targe=_blank>Repo</a>'
       align: right
       background:
         position: center
