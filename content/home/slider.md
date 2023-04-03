@@ -40,7 +40,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: welcome.png
+        media: scinet.jpg
         fit: cover
     - title: Openings!🎓📚🤓
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
@@ -49,7 +49,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: baltic.jpg
+        media: join.jpg
         fit: cover
       link:
         icon: graduation-cap
