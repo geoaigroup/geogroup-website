@@ -24,8 +24,8 @@ content:
         brightness: 0.7
         media: welcome.png
         fit: cover
-    - title: 'it is official now!🎉🤴'
-      content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants. Our github solution <a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" target=_blank>repo</a>'
+    - title: 'GeoUrban-AI tool🏠🧠'
+      content: 'The <a href="http://geoai.cnrs.edu.lb/urbanmodels/" target=_blank> tool</a> has been extremley welcomed by the community and received enormous amount of positive feedback so far.'
       align: center
       background:
         position: left
@@ -42,7 +42,7 @@ content:
         brightness: 0.7
         media: welcome.png
         fit: cover
-    - title: Openings🎓📚🤓
+    - title: Openings!🎓📚🤓
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
       align: center
       background:
