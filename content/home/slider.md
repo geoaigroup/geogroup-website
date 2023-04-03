@@ -33,9 +33,9 @@ content:
         brightness: 0.7
         media: welcome.png
         fit: cover
-    - title: Openings!
-      content: 'Internship and graduate thesis openings available. Send resume and cover letter.'
-      align: right
+    - title: Openings🎓📚🤓
+      content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
+      align: center
       background:
         position: center
         color: '#555'
