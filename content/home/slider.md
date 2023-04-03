@@ -20,7 +20,7 @@ content:
       align: right
       background:
         position: left
-        color: '#ffffff' #An HTML color value.
+        color: '#FFFFFF' #An HTML color value.
         brightness: 0.7
         media: NASAHarvest.png
         fit: contain
