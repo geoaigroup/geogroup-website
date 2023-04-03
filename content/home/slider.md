@@ -42,7 +42,7 @@ content:
         brightness: 0.7
         media: scinet.jpg
         fit: cover
-    - title: Openings!🎓📚🤓
+    - title: Openings!🎓📚
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
       align: center
       background:
