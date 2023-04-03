@@ -30,7 +30,7 @@ content:
       background:
         position: left
         color: '#FFFFFF' #An HTML color value.
-        brightness: 0.7
+        brightness: 0.1
         media: aerial.jpg
         fit: cover
     - title: Sci-Net👏🚀
