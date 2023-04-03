@@ -26,7 +26,7 @@ content:
         fit: cover
     - title: 'it is official now!🎉 😍 🤴 💪 👏 🎈'
       content: 'GEOAI group ranked 4th in the "NASA Harvest Field Boundary Detection Challenge" out of 730 participants.<br> Our solution is made public via following repo:<br><a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" targe=_blank>https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge</a>'
-      align: left
+      align: right
       background:
         position: center
         color: '#555'
@@ -42,18 +42,18 @@ content:
         brightness: 0.5
         media: SciNet.jpeg
         fit: cover
-    - title: World-Class Semiconductor Lab
-      content: 'Just opened last month!'
+    - title: Openings!
+      content: 'GEOAI group has available openings for summer internship and graduate thesis/project. Interested candidates should send resume and cover letter using Contact widget below'
       align: right
       background:
         position: center
         color: '#333'
         brightness: 0.5
-        media: SciNet.jpeg
+        media: welcome.png
         fit: cover
       link:
         icon: graduation-cap
         icon_pack: fas
         text: Join Us
-        url: ../contact/
+        url: #contact
 ---
