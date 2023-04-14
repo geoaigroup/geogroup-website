@@ -47,5 +47,6 @@ design:
   flip_alt_rows: true
 ---
 {{% callout note %}}
+<b>Unlock the full potential of Earth Observation🛰️</b>
 GEOspatial Artificial Intelligence (GEOAI) is a research group at the <a href="http://rsensing.cnrs.edu.lb" target="_blank">National Center for Remote Sensing </a> - <a href="http://www.cnrs.edu.lb" target="_blank">CNRS</a>, Lebanon. Our research is focused on AI-assisted mapping spanning various applications, including urban analytics, transportation, waterbodies monitoring and crop-yield estimation. We develop tools to automate the process of urban features extraction and crowd-source data collection. Evidence gained from our models allows for a robust humanitarian response and provides policymakers/key-stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.<br> GEOAI group provides a unique opportunity for geospatial training in a professional research environment in Lebanon. We have hosted more than 40 students at both undergraduate and graduate levels since 2016.</strong>
 {{% /callout %}}
