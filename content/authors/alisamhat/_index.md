@@ -12,7 +12,7 @@ social:
       header: false
     icon_pack: fas
     icon: envelope
-    link: mailto:alisamhat2007 at gmail.comb
+    link: mailto:alisamhat2007 at gmail.com
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/Ali_Samhat_
