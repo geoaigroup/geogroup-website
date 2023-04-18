@@ -20,11 +20,11 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/hasan-moughnieh/
 organizations:
-  - name: Lebanese University
+  - name: GEOspatial Artificial Intelligence (GEOAI)
     url: null
 superuser: false
 user_groups:
   - Members
 ---
 
-**Hasan Moughnieh** is an energetic, hard working, and highly motivated Communication and Electronics engineer graduated from an ABET accredited program. He is an Artificial Intelligence and Machine Learning enthusiast, targeting an implementation of this technological advancement in communication systems.
+**Hasan Moughnieh** is an Electronics and Communication Engineer with a passion for Artificial Intelligence and Machine Learning. His educational background has equipped him with a strong foundation in engineering principles, while his personal interests have led him to explore the vast potential of AI and ML technologies. His ultimate goal is to immerse himself in the field of AI, harnessing its power to develop innovative solutions for real-world challenges. As he continues to learn and grow in this exciting domain, he aspires to make a lasting impact on the industry, contributing to its progress and shaping the future of AI-driven technologies.
