@@ -1,6 +1,6 @@
 ---
 title: Hanaa Makki
-role: Geomatics and surveying engineer
+role: Geomatics and Surveying Engineer
 bio: null
 interests:
   - ArcGIS 
