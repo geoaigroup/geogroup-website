@@ -4,8 +4,8 @@ role: CCE Engineer
 bio: null
 interests:
   - Deep learning
-  - Automated systems
-  - Robotics  
+  - Computer Vision
+  - Reinforcement Learning
 avatar_filename: avatar
 social:
   - display:
@@ -19,6 +19,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/hasan-moughnieh/
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/hasanmog_2000
 organizations:
   - name: GEOspatial Artificial Intelligence (GEOAI)
     url: null
