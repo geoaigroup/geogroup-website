@@ -5,7 +5,8 @@ summary: null
 draft: false
 featured: false
 ---
- The dataset is a collection of RGB images of Beirut buildings taken from satellite images. Each building is annotated as residential or not.
+
+Beirut Buildings Type Classification (BBTC) dataset is a collection of buildings satellite images from Beirut City where each building is manually annotated as either residential or not.
 
 BBTC dataset can be accessed through this <a href="https://storage.googleapis.com/bbtc/bbtc_dataset.tar.gz" target="_blank">GCP bucket</a> where the "Requester Pays" feature is enabled, and thus the requester needs to include a billing project in their requests and will be charged by GCP for their access to the dataset.
 
