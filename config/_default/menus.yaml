@@ -40,5 +40,5 @@ main:
     url: '#contact'
     weight: 90
   - name: Newsletter
-    url: 'newsletter'
+    url: '#newsletter'
     weight: 100
