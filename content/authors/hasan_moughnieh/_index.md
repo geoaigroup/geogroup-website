@@ -1,6 +1,6 @@
 ---
 title: Hasan Moughnieh
-role: CCE Engineer
+role: Research Engineer
 bio: null
 interests:
   - Deep learning

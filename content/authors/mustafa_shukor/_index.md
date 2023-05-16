@@ -1,6 +1,6 @@
 ---
 title: Mustafa Shukor
-role: Research Engineer
+role: PhD Student
 avatar_filename: avatar
 interests:
   - Deep Learning
@@ -31,4 +31,4 @@ superuser: false
 user_groups:
   - Collaborators
 ---
-I am mainly interested in Deep Learning and my current research spans several topics, such as Computer vision, NLP and Multimodal learning. During my graduate studies, I focused on Applied Math, Deep Learning and Computer Vision. Previously I did internships in several companies and spent some time in academic labs.
+I am mainly interested in Deep Learning and my current research spans several topics, such as Computer vision, NLP and Multimodal learning. During my graduate studies, I focused on Applied Math, Deep Learning and Computer Vision. Previously, I did internships in several companies and spent some time in academic labs.
