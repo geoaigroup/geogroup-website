@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  -  Michele Lovallo
+  - Michele Lovallo
   - Luciano Telesca
 
 url_pdf: ""
