@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  -  jezzini
+  - ajezzini
 
 url_pdf: ""
 url_dataset: ""

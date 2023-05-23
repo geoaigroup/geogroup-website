@@ -3,11 +3,11 @@ publication_types:
   - "3"
 
 authors:
-  - dimassi
-  - Abed Ellatif Samhat
-  - mzaraket
-  - Jamal Haidar
-  - mustafa-shukor
+  - mohamad_dimassi
+  - abed_samhat
+  - mohamad_zaraket
+  - jamal_haydar
+  - mustafa_shukor
   - admin
 
 url_pdf: https://arxiv.org/pdf/2111.14650

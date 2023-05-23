@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  - jezzini
+  - ajezzini
 
 title: "Post-War Building Damage Detection"
 publication: In *International Electronic Conference on Remote Sensing*

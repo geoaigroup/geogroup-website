@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  - mj
+  - mohamad_abdallah
 
 title: "Design of a Lebanese Cube Satellite"
 publication: In *International Electronic Conference on Remote Sensing*

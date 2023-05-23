@@ -4,8 +4,8 @@ publication_types:
 
 authors:
   - admin
-  - houssam
-  - jezzini
+  - houssam_krayem
+  - ajezzini
 
 title: "Autonomous Vehicle Detection and Classification in High Resolution Satellite Imagery"
 publication: In *International Arab Conference on Information Technology*

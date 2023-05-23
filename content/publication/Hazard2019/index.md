@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  - huda
+  - huda_hamoud
   - Luciano Telesca
 
 url_pdf: ""

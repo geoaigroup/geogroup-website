@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  -  jezzini
+  - ajezzini
 
 url_pdf: "https://www.mdpi.com/2075-5309/8/5/65/pdf"
 url_dataset: ""

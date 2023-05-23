@@ -3,11 +3,11 @@ publication_types:
   - "2"
 
 authors:
-  - hassan
-  - Abed Ellatif Samhat
+  - hassan_nasrallah
+  - abed_samhat
   - Yilei Shi
   - Xiaoxiang Zhu
-  - Ghaleb Faour
+  - ghaleb_faour
   - admin
 
 url_pdf: https://arxiv.org/pdf/2111.11397

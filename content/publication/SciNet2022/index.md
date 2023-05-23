@@ -3,7 +3,8 @@ publication_types:
   - "3"
 
 authors:
-  - hassan
+  - hassan_nasrallah
+  - mustafa_shukor
   - admin
 
 url_pdf: https://arxiv.org/pdf/2111.06812

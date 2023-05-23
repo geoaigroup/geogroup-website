@@ -4,11 +4,11 @@ publication_types:
 
 authors:
   - admin
-  - huda
-  - dimassi
-  - houssam
-  - Jamal Haydar
-  - adam
+  - huda_hamoud
+  - mohamad_dimassi
+  - houssam_krayem
+  - jamal_haydar
+  - adam_issa
 
 url_pdf: ""
 url_dataset: ""
