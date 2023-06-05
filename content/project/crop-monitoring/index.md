@@ -9,6 +9,5 @@ tags:
 
 image:
   filename: featured.png
-  caption: Courtesy of the publication "Evaluation of random forest method for agricultural crop classification"
 ---
 In recent years, remote sensing and deep learning have emerged as new technologies that can play a crucial role in future agriculture and global food productivity. They are new efficient ways that should help farmers to automate many tasks, including plant/crop identification. Combining remote sensing and deep learning models should provide instantaneous information about crop type and status. Therefore, these new technologies can be considered as a fundamental base for many smart farming applications, including crop yield estimation, crop surveying/monitoring, thus, leading to crop production management, cost reduction, and save a lot of time providing precious information that should help the farmers and decision makers to make instant decisions. In this project, we focus on Lebanese winter wheat parcels yearly mapping from Sentinel-2 images.
