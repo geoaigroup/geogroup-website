@@ -22,7 +22,7 @@ weight: 1
 <b><h2 id=lebanese-buildings-footprints-map>Lebanese Building Footprints map</h2></b>
 <p>Urban Monitoring through Earth Observation is a crucial theme that encompasses several applications. In this project, we tackled buildings’ segmentation, buildings’ type classification and buildings’ damage assessment. We proposed several new architectures that advance state-of-the-art technology and also provide an application targeted to the Lebanese context where we present the first comprehensive Lebanese Building Footprints map, autonomously generated using deep learning models. When you ZOOM IN, the dots on the map refer to the centroids of each building at a specific geographical location. <a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">[Map]</a><a href="https://geogroup.ai/publication/solar2022/">[Paper]</a></p>
 
-<p><img src=./solar.png title="Solar Potential Map for Lebanon"></p>
+<p><img src="./solar.png"></p>
 <b><h2 id=solar-potential>Solar Potential Map for Lebanon</h2></b>
 <p>Estimating the solar potential of buildings' rooftops at a large scale is a fundamental step for every country to utilize its solar power efficiently. However, such estimation becomes time-consuming and costly if done through on-site measurements. This project uses deep learning-based multi-class instance segmentation to extract buildings' footprints from satellite images. We propose a photovoltaic panels placement algorithm to estimate the solar potential of every rooftop, which results in Lebanon's first buildings' solar potential map. We report average and total solar potential per district and localize regions corresponding to the highest solar potential yield. <a href="https://geogroup.ai/publication/solar2022/">[Paper]</a></p>
 
