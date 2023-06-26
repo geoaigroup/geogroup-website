@@ -14,7 +14,7 @@ date: 2021-12-13T09:07:29.350Z
 
 <div class=article-style itemprop=articleBody>
 
-<strong><h2 id=geourban-ai-tool>GeoUrban-AI Tool</h2></strong>
+<b><h2 id=geourban-ai-tool>GeoUrban-AI Tool</h2></b>
 <p>GeoUrban-AI powered Tool allows to autonomously extract buildings' footprints from satellite/aerial imagery. The aim is to make our applied research findings accessible to a larger community. Though it is not common to develop such a web-based tool for a team that is mainly involved with research rather than product development; We believe this demo would help us target a larger audience and would open up new horizons for the GEOAI group. <a href="http://geoai.cnrs.edu.lb/urbanmodels/" target="_blank">[Tool]</a></p>
 
 <img src="./lebanonmap.png">
