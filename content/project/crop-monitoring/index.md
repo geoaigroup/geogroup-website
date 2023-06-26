@@ -23,5 +23,10 @@ image:
 <b><h2 id=silos>Silo Bins</h2></b>
 <p>Urban Monitoring through Earth Observation is a crucial theme that encompasses several applications. In this project, we tackled buildings’ segmentation, buildings’ type classification and buildings’ damage assessment. We proposed several new architectures that advance state-of-the-art technology and also provide an application targeted to the Lebanese context where we present the first comprehensive Lebanese Building Footprints map, autonomously generated using deep learning models. When you ZOOM IN, the dots on the map refer to the centroids of each building at a specific geographical location.</p>
 
+<img src="./nasa.png">
+
+<b><h2 id=nasas>Field Boundary Detection</h2></b>
+<p>Small farms produce about 35% of the world’s food, and are mostly found in low- and middle-income countries. Mapping these farms allows policy-makers to allocate resources and monitor the impacts of extreme events on food production and food security. In this NASA Harvest challenge, the goal is to classify crop field boundaries in Rwanda’s Eastern Province. GEOAI group ranked 4th in the “NASA Harvest Field Boundary Detection Challenge” out of 730 participants <a href="https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge" target=_blank>[Code]</a>.</p>
+
 </div>
 
