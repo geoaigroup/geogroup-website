@@ -1,5 +1,5 @@
 ---
-title: GeoUrban-AI Mapping
+title: 
 summary: Urban Monitoring through Earth Observation
 
 draft: false
@@ -12,14 +12,14 @@ date: 2021-12-13T09:07:29.350Z
 
 ---
 
-<h1 itemprop=name>Data and Biometrics Privacy</h1>
+<h1 itemprop=name>GeoUrban-AI Mapping</h1>
 <div class=article-style itemprop=articleBody>
 
-<h2 id=urban-monitoring-through-eo>Urban Monitoring through Earth Observation</h2>
-<p>Urban Monitoring through Earth Observation is a crucial theme that encompasses several applications. In this project, we tackled buildings’ segmentation, buildings’ type classification and buildings’ damage assessment. We proposed several new architectures that advance state-of-the-art technology and also provide an application targeted to the Lebanese context where we present the first comprehensive Lebanese Building Footprints map, autonomously generated using deep learning models. When you ZOOM IN, the dots on the map refer to the centroids of each building at a specific geographical location. The map can be accessed via the following <a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">LINK</a>.</p>
+<h2 id=urban-monitoring-through-eo>Lebanese Building Footprints map</h2>
+<p>Urban Monitoring through Earth Observation is a crucial theme that encompasses several applications. In this project, we tackled buildings’ segmentation, buildings’ type classification and buildings’ damage assessment. We proposed several new architectures that advance state-of-the-art technology and also provide an application targeted to the Lebanese context where we present the first comprehensive Lebanese Building Footprints map, autonomously generated using deep learning models. When you ZOOM IN, the dots on the map refer to the centroids of each building at a specific geographical location. <a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">[Map]</a><a href="https://geogroup.ai/publication/solar2022/">[Paper]</a></p>
 
-<p><img src=./urban-monitoring.png alt title="Urban Monitoring through Earth Observation"></p>
-<a href="https://geogroup.ai/publication/solar2022/">Paper</a>
+<p><img src=./urban-monitoring.png alt title="Lebanese Building Footprints map"></p>
+
 
 <h2 id=sci-net>Sci-Net: a Scale Invariant Model for Building Detection from Aerial Images</h2><p>
 Buildings' segmentation is a fundamental task in the field of earth observation and aerial imagery analysis. Most existing deep learning based algorithms in the literature can be applied to fixed or narrow-ranged spatial resolution imagery. In practical scenarios, users deal with a wide spectrum of images resolution and thus, often need to resample a given aerial image to match the spatial resolution of the dataset used to train the deep learning model. This however, would result in a severe degradation in the quality of the output segmentation masks. To deal with this issue, we propose in this research a Scale-invariant neural network (Sci-Net) that is able to segment buildings present in aerial images at different spatial resolutions. Specifically, we modified the U-Net architecture and fused it with dense Atrous Spatial Pyramid Pooling (ASPP) to extract fine-grained multi-scale representations. We compared the performance of our proposed model against several state-of-the-art models on the Open Cities AI dataset, and showed that Sci-Net provides a steady improvement margin in performance across all resolutions available in the dataset.</p>
