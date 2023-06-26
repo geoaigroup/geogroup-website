@@ -17,7 +17,8 @@ date: 2021-12-13T09:07:29.350Z
 <strong><h2 id=geourban-ai-tool>GeoUrban-AI Tool</h2></strong>
 <p>GeoUrban-AI powered Tool allows to autonomously extract buildings' footprints from satellite/aerial imagery. The aim is to make our applied research findings accessible to a larger community. Though it is not common to develop such a web-based tool for a team that is mainly involved with research rather than product development; We believe this demo would help us target a larger audience and would open up new horizons for the GEOAI group. <a href="http://geoai.cnrs.edu.lb/urbanmodels/" target="_blank">[Tool]</a></p>
 
-<img src="./lebanonmap.png">
+
+
 <strong><h2 id=lebanese-buildings-footprints-map>Lebanese Building Footprints map</h2></strong>
 <p>Urban Monitoring through Earth Observation is a crucial theme that encompasses several applications. In this project, we tackled buildings’ segmentation, buildings’ type classification and buildings’ damage assessment. We proposed several new architectures that advance state-of-the-art technology and also provide an application targeted to the Lebanese context where we present the first comprehensive Lebanese Building Footprints map, autonomously generated using deep learning models. When you ZOOM IN, the dots on the map refer to the centroids of each building at a specific geographical location. <a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">[Map]</a><a href="https://geogroup.ai/publication/solar2022/">[Paper]</a></p>
 
