@@ -1,6 +1,6 @@
 ---
 title: GeoUrban-AI Tool
-summary: Ai-powered web-based tool to extract buildings' footprint
+summary: AI-powered web-based tool to extract buildings' footprint
 
 draft: false
 featured: false
