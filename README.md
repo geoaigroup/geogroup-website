@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b597e35-446b-4787-be45-7af52843bacb/deploy-status)](https://app.netlify.com/sites/geogroup-website/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b597e35-446b-4787-be45-7af52843bacb/deploy-status)](https://app.netlify.com/sites/geoaigroup-website/deploys)
 
 # GEOAI group repo built using Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
 
