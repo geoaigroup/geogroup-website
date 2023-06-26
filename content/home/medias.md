@@ -47,7 +47,7 @@ LOCR project <a href="https://al-akhbar.com/Community/361987/" target=_blank>fea
 </li>
 
 <li>
-LOCR project <a href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438 target=_blank>featured</a> on on Aljadeed TV <i>(4 May 2023)</i>. 
+LOCR project <a href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438" target="_blank">featured</a> on on Aljadeed TV <i>(4 May 2023)</i>. 
 </li>
 
 </ul>
