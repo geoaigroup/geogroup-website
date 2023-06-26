@@ -16,8 +16,10 @@ title: ""
 			<div class="row">
 				<div class="col-md-12">
 					<ul>
-						<li>Solar rooftop potential project <a href="https://al-akhbar.com/Community/364188" target="_blank">featured</a> on the 
-						<a href="https://www.linkedin.com/posts/alighandour_featured-today-on-the-cover-page-of-al-akhbar-activity-7074321199274565633-yF8m" target="_blank">cover page</a> of Al-Akhbar Newspaper <i>(13 June 2023)</i>.</li>
+						<li><strong>Solar rooftop potential project:</strong> <a href="https://al-akhbar.com/Community/364188" target="_blank">Featured on Al-Akhbar Newspaper</a> 
+						<a href="https://www.linkedin.com/posts/alighandour_featured-today-on-the-cover-page-of-al-akhbar-activity-7074321199274565633-yF8m" target="_blank">cover page</a> (13 June 2023)</i>.</li>
+						<li><strong>VLM4EO project:</strong> <a href="https://www.youtube.com/watch?v=0gaQHdAFrzA" target="_blank">Webinar recording: "How segment anything (SAM) would revolutionize geospatial applications?"</a> as part of African Women in GIS AI series. <a href="../media/SAM_26May2023/SAM_AliGhandour_26May2023.pdf" target="_blank">Slides</a> and 
+						<a href="https://colab.research.google.com/github/geoaigroup/geogroup-website/blob/main/content/media/SAM_26May2023/SAM_GEOAI_Demo.ipynb" target="_blank">Notebook</a> are made available <i>(26 May 2023)</i>.</li>
 						<li><strong>LOCR project</strong>: <a href="https://al-akhbar.com/Community/361987/" target="_blank">Featured on Al-Akhbar Newspaper</a><i>(4 May 2023)</i>.
 						</li>
 						<li><strong>LOCR project</strong>: <a target="_none" href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438">Live interview at Aljadeed TV
