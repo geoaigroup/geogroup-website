@@ -40,5 +40,5 @@ main:
     url: '#contact'
     weight: 90
   - name: Media
-    url: 'media'
+    url: 'medias'
     weight: 100
