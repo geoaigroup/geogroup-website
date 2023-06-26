@@ -8,7 +8,21 @@ headless: true
 title: "Media"
 
 ---
-
+<div class="container">
+	<div class="mt-4">
+		<section>
+			<h1 class="mobile">Press & Media</h1>
+			<hr />
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li><strong>LOCR project</strong>: <a href="https://al-akhbar.com/Community/361987/" target=_blank>Featured on Al-Akhbar Newspaper</a><i>(4 May 2023)</i>.
+						</li>
+						<li><strong>LOCR project</strong>: <a target="_none" href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438">Live interview at Aljadeed TV
+						</a><i>(3 May 2023)</i>.</li>
+				</div>
+			</div>
+					
 <ul>
 
 <li>
@@ -20,7 +34,7 @@ Solar rooftop potential project <a href="https://al-akhbar.com/Community/364188"
 </li>
 
 <li>
-LOCR project <a href="https://al-akhbar.com/Community/361987/" target=_blank>featured</a> on Al-Akhbar Newspaper <i>(4 May 2023)</i>. 
+LOCR project <a href="https://al-akhbar.com/Community/361987/" target=_blank>featured</a> on Al-Akhbar Newspaper 
 </li>
 
 <li>
