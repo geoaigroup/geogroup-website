@@ -15,7 +15,7 @@ url_dataset: ""
 url_project: "https://geogroup.ai/project/locr/"
 url_source: ""
 url_video: ""
-url_slides: ""
+url_slides: "https://geogroup.ai/project/locr/LOCR_latest.pdf"
 url_poster: ""
 url_code: "https://github.com/geoaigroup/locr"
 slides: null
