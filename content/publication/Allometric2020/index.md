@@ -12,12 +12,12 @@ authors:
 
 url_pdf: ""
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/locr/"
 url_source: ""
 url_video: ""
 url_slides: ""
 url_poster: ""
-url_code: ""
+url_code: "https://github.com/geoaigroup/locr"
 slides: null
 
 title: "Allometric scaling of road accidents using social media crowd-sourced data"
