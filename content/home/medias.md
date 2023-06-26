@@ -23,10 +23,8 @@ LOCR project <a href="https://al-akhbar.com/Community/361987/" target=_blank>fea
 </li>
 
 <li>
-LOCR project <a href="https://al-akhbar.com/Community/361987/" target=_blank>featured</a> on on Aljadeed TV <i>(4 May 2023)</i>. 
+LOCR project <a href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438 target=_blank>featured</a> on on Aljadeed TV <i>(4 May 2023)</i>. 
 </li>
-
-<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamara.elzein1977%2Fvideos%2F253008400476438%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
 </ul>
 
