@@ -33,9 +33,9 @@ main:
   - name: Team
     url: '#people'
     weight: 70
-  - name: Dataset
-    url: '#dataset'
-    weight: 80
+#  - name: Dataset
+#    url: '#dataset'
+#    weight: 80
   - name: Contact Us
     url: '#contact'
     weight: 90
