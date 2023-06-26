@@ -24,6 +24,7 @@ title: ""
 						</li>
 						<li><strong>LOCR project</strong>: <a target="_none" href="https://www.facebook.com/tamara.elzein1977/videos/253008400476438">Live interview at Aljadeed TV
 						</a><i>(3 May 2023)</i>.</li>
+					</ul>
 				</div>
 			</div>			
 		</section>
