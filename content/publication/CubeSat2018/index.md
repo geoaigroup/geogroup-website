@@ -6,6 +6,16 @@ authors:
   - admin
   - mohamad_abdallah
 
+url_pdf: ""
+url_dataset: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
+url_source: ""
+url_video: ""
+url_slides: ""
+url_poster: ""
+url_code: ""
+slides: null
+
 title: "Design of a Lebanese Cube Satellite"
 publication: In *International Electronic Conference on Remote Sensing*
 
@@ -13,7 +23,7 @@ publication: In *International Electronic Conference on Remote Sensing*
 add_badge: true
 
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
 
 image:
   caption: null

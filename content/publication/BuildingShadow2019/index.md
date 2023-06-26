@@ -8,7 +8,7 @@ authors:
 
 url_pdf: ""
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
 url_source: ""
 url_video: ""
 url_slides: ""
@@ -25,7 +25,7 @@ publication: "*Signal, Image and Video Processing*"
 add_badge: true
 
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
   
 image:
   caption: null

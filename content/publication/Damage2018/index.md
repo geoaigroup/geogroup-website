@@ -6,6 +6,16 @@ authors:
   - admin
   - ajezzini
 
+url_pdf: ""
+url_dataset: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
+url_source: ""
+url_video: ""
+url_slides: ""
+url_poster: ""
+url_code: ""
+slides: null
+
 title: "Post-War Building Damage Detection"
 publication: In *International Electronic Conference on Remote Sensing*
 
@@ -16,7 +26,7 @@ abstract: "Natural disasters and wars wreak havoc not only on individuals and cr
 add_badge: true
 
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
   
 image:
   caption: null

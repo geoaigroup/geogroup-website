@@ -9,12 +9,12 @@ authors:
 
 url_pdf: https://www.mdpi.com/1660-4601/17/11/4111/pdf
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/locr/"
 url_source: ""
 url_video: ""
-url_slides: ""
+url_slides: "https://geogroup.ai/project/locr/LOCR_latest.pdf"
 url_poster: ""
-url_code: ""
+url_code: "https://github.com/geoaigroup/locr"
 slides: null
 
 title: "Analyzing Factors Associated with Fatal Road Crashes: A Machine Learning Approach"

@@ -7,6 +7,16 @@ authors:
   - houssam_krayem
   - ajezzini
 
+url_pdf: ""
+url_dataset: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
+url_source: ""
+url_video: ""
+url_slides: ""
+url_poster: ""
+url_code: ""
+slides: null
+
 title: "Autonomous Vehicle Detection and Classification in High Resolution Satellite Imagery"
 publication: In *International Arab Conference on Information Technology*
 
@@ -17,7 +27,7 @@ abstract: "High resolution remote sensing data can provide worldwide images rapi
 add_badge: true
 
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
 
 image:
   caption: null

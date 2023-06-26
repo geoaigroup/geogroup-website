@@ -8,7 +8,7 @@ authors:
 
 url_pdf: "https://www.mdpi.com/2075-5309/8/5/65/pdf"
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
 url_source: ""
 url_video: ""
 url_slides: ""
@@ -25,7 +25,7 @@ publication: "*Buildings*"
 add_badge: true
 
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
   
 image:
   caption: null

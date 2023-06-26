@@ -9,7 +9,7 @@ authors:
 
 url_pdf: https://arxiv.org/pdf/2111.06812
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/geourbanai-mapping/"
 url_source: ""
 url_video: ""
 url_slides: ""
@@ -28,7 +28,7 @@ add_badge: true
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - urban-monitoring
+  - geourbanai-mapping
 
 
 # Featured image

@@ -11,7 +11,7 @@ authors:
 
 url_pdf: ""
 url_dataset: ""
-url_project: ""
+url_project: "https://geogroup.ai/project/qaraaoun-reservoir/"
 url_source: ""
 url_video: ""
 url_slides: ""
