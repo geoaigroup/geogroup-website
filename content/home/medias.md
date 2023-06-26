@@ -8,6 +8,6 @@ headless: true
 title: "Media"
 ---
 
-[Featured 13 June 2023 on the cover page of Al-Akhbar Newspaper] (https://www.linkedin.com/posts/alighandour_featured-today-on-the-cover-page-of-al-akhbar-activity-7074321199274565633-yF8m?utm_source=share&utm_medium=member_desktop)(https://al-akhbar.com/Community/364188)
+[Featured 13 June 2023 on the cover page of Al-Akhbar Newspaper] (https://www.linkedin.com/posts/alighandour_featured-today-on-the-cover-page-of-al-akhbar-activity-7074321199274565633-yF8m?utm_source=share&utm_medium=member_desktop)
 
 <iframe width="540" height="445" src="https://14acb9c5.sibforms.com/serve/MUIEALoff1NExbNNjw4-Lws6ZOkfSZyoJ6cvK1T39srRGG7q6wzGvB27k6QdmxrqdkSLG0SzRwSPm4VrF32toJRwk0Js9nrFzrInnIkmodnXp8QJNGSYDHUKzmK8g0exqYu9pee6DwOkxE-uUlBKCU5vN6Vu_OWpF5bQCJz0rFz8o_mddTbLdarer8660ZWZyAIzol1qtnKNl5by"" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
