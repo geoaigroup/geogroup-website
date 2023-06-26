@@ -15,7 +15,7 @@ Solar rooftop potential project <a href="https://al-akhbar.com/Community/364188"
 </li>
 
 <li>
-<a href="https://www.youtube.com/watch?v=0gaQHdAFrzA" target=_blank>Webinar recording: </a> "How segment anything (SAM) would revolutionize geospatial applications?" as part of African Women in GIS AI series <i>(26 May 2023)</i>. <a href="../media/SAM_26May2023/SAM_AliGhandour_26May2023.pdf" target="_blank">Slides</a> and <a href="https://colab.research.google.com/github/geoaigroup/geogroup-website/blob/main/content/media/SAM_26May2023/SAM_GEOAI_Demo.ipynb" target="_blank">Notebook</a> are made available.
+<a href="https://www.youtube.com/watch?v=0gaQHdAFrzA" target=_blank>Webinar recording: </a> "How segment anything (SAM) would revolutionize geospatial applications?" as part of African Women in GIS AI series. <a href="../media/SAM_26May2023/SAM_AliGhandour_26May2023.pdf" target="_blank">Slides</a> and <a href="https://colab.research.google.com/github/geoaigroup/geogroup-website/blob/main/content/media/SAM_26May2023/SAM_GEOAI_Demo.ipynb" target="_blank">Notebook</a> are made available <i>(26 May 2023)</i>.
 </li>
 
 <li>
