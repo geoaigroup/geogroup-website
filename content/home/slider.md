@@ -24,7 +24,7 @@ content:
         brightness: 0.7
         media: welcome.png
         fit: cover
-    - title: 'GeoUrban-AI tool🏠'
+    - title: 'GeoUrban-AI Tool'
       content: '<a href="http://geoai.cnrs.edu.lb/urbanmodels/" target=_blank> GeoUrban-AI</a> tool has been extremley welcomed by the community and received enormous amount of positive feedback so far.'
       align: center
       background:
@@ -42,7 +42,7 @@ content:
         brightness: 0.7
         media: scinet.jpg
         fit: cover
-    - title: Openings!🎓
+    - title: Openings!
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
       align: center
       background:
