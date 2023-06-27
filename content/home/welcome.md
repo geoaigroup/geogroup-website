@@ -3,13 +3,13 @@ widget: blank
 headless: true
 weight: 10
 title: null
-hero_media: welcome.png
+hero_media: null
 design:
   columns: 1'
   css_style: null
   css_class: null
   background:
-    image: welcome.png
+    image: null
     image_darken: ""
     text_color_light: false
 ---
