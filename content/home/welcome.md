@@ -1,5 +1,5 @@
 ---
-widget: blank
+widget: pages
 headless: true
 weight: 10
 title: null
