@@ -5,10 +5,63 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: markdown
+  - block: hero
+    content:
+      title: |
+        Wowchemy
+        Research Group
+      image:
+        filename: welcome.jpg
+      text: |
+        <br>
+        
+        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+  
+  - block: collection
     content:
       title: Latest News
+      subtitle:
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+  
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: coders.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+  
+  - block: markdown
+    content:
+      title:
+      subtitle:
       text: |
-        {{% callout note %}} <b>Unlock the full potential of Earth Observation🛰️</b><br>GEOspatial Artificial Intelligence (GEOAI) is a research group at the Lebanese National Center for Remote Sensing - CNRS. Our research is focused on AI-assisted mapping spanning various applications, including urban analytics, transportation, waterbodies monitoring and crop-yield estimation. We develop tools to automate the process of urban features extraction and crowd-source data collection. Evidence gained from our models allows for a robust humanitarian response and provides policymakers/key-stakeholders with insights to design tailored regulations and safety countermeasures for urban social good.<br> GEOAI group provides a unique opportunity for geospatial training in a professional research environment in Lebanon. <strong>We have hosted more than 60 students at both undergraduate and graduate levels since 2016.</strong> GEOAI <a href="../media/GEOAI_1Slide.pdf" target=_blank>signle-slide</a> and <a href="../media/GEOAI_portfolio_23May2023.pdf" target=_blank>full-length</a> portfolios are made available.{{% /callout %}}.
-		
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+    design:
+      columns: '1'
 ---
