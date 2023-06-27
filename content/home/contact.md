@@ -27,9 +27,13 @@ content:
     latitude: '33.8577207'
     longitude: '35.5676237'
   contact_links:
+    - icon: linkedin
+      icon_pack: fab
+      name: LinkedIn
+      link: https://www.linkedin.com/company/geoaigroup
     - icon: twitter
       icon_pack: fab
-      name: Follow us on Twitter
+      name: Twitter
       link: https://twitter.com/AliJGhandour
   # Automatically link email and phone or display as text?
   autolink: true
