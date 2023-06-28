@@ -48,6 +48,9 @@ content:
       attachments: true
   
 design:
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["10px", "0", "0px", "0"]
   columns: '2'
   background:
      color: "#FFFFF8"
