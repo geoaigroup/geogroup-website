@@ -37,7 +37,7 @@ design:
   columns: '2'
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["0px", "0", "0px", "0"]
+    padding: ["10px", "0", "0px", "0"]
 
   # Toggle between the various page layout types.
   #   1 = List
