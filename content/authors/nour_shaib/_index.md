@@ -27,4 +27,4 @@ user_groups:
   - Members
 ---
 
-**Hasan Moughnieh** is a dedicated programmer with some experience in DevOps and software testing. She has strong passion for technology and enjoy working on various aspects of the software development life cycle. With a foundation in programming and an understanding of DevOps principles, Nour aims to contribute to the development and deployment of reliable software solutions.
+**Nour Shaib** is a dedicated programmer with some experience in DevOps and software testing. She has strong passion for technology and enjoy working on various aspects of the software development life cycle. With a foundation in programming and an understanding of DevOps principles, Nour aims to contribute to the development and deployment of reliable software solutions.
