@@ -18,7 +18,7 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 I hold a BE in Computer and Communication Engineering. In the past years, I worked on different programming projects
 including desktop applications, web applications and machine learning. I spend my leisure time reading and listening to podcasts.

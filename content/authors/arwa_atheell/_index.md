@@ -16,7 +16,7 @@ organizations:
 email: ""
 superuser: true
 user_groups:
-  - Members
+  - Alumni
 highlight_name: false
 weight: 1
 ---
