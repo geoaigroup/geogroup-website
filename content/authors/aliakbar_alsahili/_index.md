@@ -11,7 +11,7 @@ social:
     link: mailto:aliakbaralsahili at gmail.com
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/loumamehyeddine/
+    link: https://www.linkedin.com/in/ali-al-sahili-81159825b
   - icon: github
     icon_pack: fab
     link: https://github.com/elakbar47
