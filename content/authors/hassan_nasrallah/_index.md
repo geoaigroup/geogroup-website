@@ -24,5 +24,6 @@ email: ""
 superuser: false
 user_groups:
   - Members
+weight: 2
 ---
 I studied Computer and Communications Engineering at the Lebanese University. My main goal is to achieve high level knowledge in machine intelligence and dive into the core details of the artificial deep mind. I have participated in online datascience competitions and willing to participate more in the future. 
