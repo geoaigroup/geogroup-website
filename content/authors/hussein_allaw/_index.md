@@ -25,7 +25,7 @@ organizations:
   - name: Lebanese University
 superuser: false
 user_groups:
-  - Members
+  - Alumini
 ---
 <!--StartFragment-->
 
