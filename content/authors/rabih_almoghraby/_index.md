@@ -3,7 +3,9 @@ title: Rabih Al Moghraby
 role:  Engineering Student
 bio: null
 interests:
-  - Programming
+  - Software Development
+  - Algorithm Design
+  - Telecommunications
   - Deep Learning
 social:
   - icon: envelope
@@ -23,4 +25,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Rabih Al Moghraby** is .
+**Rabih Al Moghraby** is a computer communication and network engineering student at the Lebanese University. He is passionate about scientific exploration in various domains, with a focus on the intersection of data science and scientific discovery. Rabih is enthusiastic about leveraging machine learning techniques to explore scientific mysteries and drive meaningful solutions for real-world challenges.
