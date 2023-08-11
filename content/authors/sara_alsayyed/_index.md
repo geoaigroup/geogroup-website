@@ -3,8 +3,9 @@ title: Sara Al Sayyed
 role:  Engineering Student
 bio: null
 interests:
-  - Programming
   - Deep Learning
+  - Computer Vision
+  - Speech and image processing
 social:
   - icon: envelope
     icon_pack: fas
@@ -23,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Sara Al Sayyed** is .
+**Sara Al Sayyed** is a computer and telecommunication engineering student having a deep interest in AI and its role in empowering the field of telecommunication. I've been significantly involved in AI , deep learning and computer vision projects. I look forward for a doctoral thesis in this domain one day too.
