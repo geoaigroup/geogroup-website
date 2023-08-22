@@ -4,7 +4,7 @@ publication_types:
 
 authors:
   - admin
-  - ajezzini
+  - abdulkarim_gizzini
 
 url_pdf: ""
 url_dataset: ""
