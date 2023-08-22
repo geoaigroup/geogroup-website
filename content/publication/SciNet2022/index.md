@@ -17,7 +17,7 @@ url_poster: ""
 url_code: ""
 slides: null
 
-title: "Sci-Net: a Scale Invariant Model for Building Detection from Aerial Images"
+title: "Sci-Net: Scale-Invariant Model for Buildings Segmentation from Aerial Imagery"
 
 # Show publication and sharing statistics? (requires valid doi)
 add_badge: true
@@ -43,6 +43,6 @@ featured: false
 doi: "10.1007/s11760-023-02520-3"
 date: "2021-11-29T00:00:00Z"
 
-abstract: "Buildings' segmentation is a fundamental task in the field of earth observation and aerial imagery analysis. Most existing deep learning based algorithms in the literature can be applied on fixed or narrow-ranged spatial resolution imagery. In practical scenarios, users deal with a wide spectrum of images resolution and thus, often need to resample a given aerial image to match the spatial resolution of the dataset used to train the deep learning model. This however, would result in a severe degradation in the quality of the output segmentation masks. To deal with this issue, we propose in this research a Scale-invariant neural network (Sci-Net) that is able to segment buildings present in aerial images at different spatial resolutions. Specifically, we modified the U-Net architecture and fused it with dense Atrous Spatial Pyramid Pooling (ASPP) to extract fine-grained multi-scale representations. We compared the performance of our proposed model against several state of the art models on the Open Cities AI dataset, and showed that Sci-Net provides a steady improvement margin in performance across all resolutions available in the dataset."
+abstract: "Buildings’ segmentation is a fundamental task in the field of earth observation and aerial imagery analysis. Most existing deep learning-based methods in the literature can be applied to a fixed or narrow-range spatial resolution imagery. In practical scenarios, users deal with a broad spectrum of image resolutions. Thus, a given aerial image often needs to be re-sampled to match the spatial resolution of the dataset used to train the deep learning model, which results in a degradation in segmentation performance. To overcome this challenge, we propose, in this manuscript, scale-invariant neural network (Sci-Net) architecture that segments buildings from wide-range spatial resolution aerial images. Specifically, our approach leverages UNet hierarchical representation and dense atrous spatial pyramid pooling to extract fine-grained multi-scale representations. Sci-Net significantly outperforms state-of-the-art models on the open cities AI and the multi-scale building datasets with a steady improvement margin across different spatial resolutions."
 
 ---
