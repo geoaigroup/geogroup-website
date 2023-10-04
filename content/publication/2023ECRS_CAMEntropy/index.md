@@ -7,7 +7,7 @@ authors:
   - mustafa_shukor 
   - admin
   
-url_pdf: https://arxiv.org/pdf/2310.01837.pdf
+url_pdf: "https://arxiv.org/pdf/2310.01837.pdf"
 url_dataset: ""
 url_project: "https://geogroup.ai/project/xai/"
 url_source: ""
