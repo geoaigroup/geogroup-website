@@ -20,6 +20,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 I have a keen interest in using AI to solve real-world problems and particularly enjoy working with computer vision. My professional background includes diverse projects involving embedded systems, computer vision and industrial control.
