@@ -39,6 +39,9 @@ image:
   focal_point: ""
   preview_only: false
   
+featured: false
+#doi: "10.1109/JSTARS.2022.3181446"
+date: "2023-10-04T00:00:00Z"
 
 
 ---
