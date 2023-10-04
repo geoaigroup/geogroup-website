@@ -3,7 +3,7 @@ publication_types:
   - "3"
 
 authors:
-  - hassan_nasrallah
+  - hasan_nasrallah
   - mustafa_shukor
   - admin
 

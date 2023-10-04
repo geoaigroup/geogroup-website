@@ -1,5 +1,5 @@
 ---
-title: Hassan Nasrallah
+title: Hasan Nasrallah
 role: Computer Vision Engineer
 bio: null
 interests:
