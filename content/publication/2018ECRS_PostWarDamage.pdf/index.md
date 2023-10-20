@@ -1,6 +1,6 @@
 ---
 publication_types:
-  - "1"
+  - pub_article
 
 authors:
   - admin
