@@ -1,6 +1,6 @@
 ---
 publication_types:
-  - "3"
+  - pub_paper_conference
 
 authors:
   - mohamad_dimassi

@@ -1,6 +1,6 @@
 ---
 publication_types:
-  - pub_article
+  - pub_paper_conference
 
 authors:
   - admin

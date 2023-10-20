@@ -1,6 +1,6 @@
 ---
 publication_types:
-  - "3"
+  - pub_article_journal
 
 authors:
   - hasan_nasrallah

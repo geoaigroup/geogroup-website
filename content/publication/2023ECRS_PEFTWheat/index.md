@@ -1,6 +1,6 @@
 ---
 publication_types:
-  - "1"
+  - pub_paper_conference
 
 authors:
   - mohamad_zahweh
