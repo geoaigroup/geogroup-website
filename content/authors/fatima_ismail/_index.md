@@ -22,6 +22,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 **Fatima Ismail** is a Computer and Communication Engineering student at Lebanese University, with experience in programming (Python, C++ ), networking and cyber security. Her passion in the boundless possibilities of AI pushes her to dive deeper and expertise in this domain.
