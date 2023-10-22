@@ -20,7 +20,7 @@ url_poster: ""
 url_code: ""
 slides: null
 
-title: "Extending GradCam-based XAI methods for Remote Sensing Imagery Segmentation"
+title: "Extending Cam-based XAI methods for Remote Sensing Imagery Segmentation"
 #publication: "*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*"
 
 # Show publication and sharing statistics? (requires valid doi)
