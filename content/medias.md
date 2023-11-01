@@ -16,9 +16,11 @@ title: ""
 			<div class="row">
 				<div class="col-md-12">
 					<ul>
+						<li><strong>VLM4EO project:</strong> Live Demo session "Zero-Shot Buildings' Segmentation using SAM" as part of the "5th NOAA AI workshop 2023" that has more than 1000 registered participants <a href="https://ncsu.zoom.us/rec/play/OgcHgr7YvYXmoAWwaz8bp_VMFsjSTasFpHcP6fsIlzRf_BG9mot6kjfwXynvvIYlLcoibzqZbBEhowgJ.flNYlRkOXC7eZoUe?canPlayFromShare=true&from=share_recording_detail&startTime=1695056412000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fncsu.zoom.us%2Frec%2Fshare%2Fca8YOdXyDfMBDOto9eHqaoOcMzKRdg4LjqKtt2BPSxzzg96zEjGfKeY1dlIkdBCb.vStQgHc6ndVGDEHx%3FstartTime%3D1695056412000" target="_blank">[Recording]</a> <a href="../media/NOAAAI_GEOAI_18Sept2023.pdf" target="_blank">[Slides]</a> 
+						<a href="https://github.com/geoaigroup/GEOAI-ECRS2023/tree/main/5th%20NOAA%20AI%20Workshop" target="_blank">[Code Repo]</a> <i>(18 Sept 2023))</i>.</li>
 						<li><strong>Solar rooftop potential project:</strong> <a href="https://al-akhbar.com/Community/364188" target="_blank">Featured on Al-Akhbar Newspaper</a> 
 						<a href="https://www.linkedin.com/posts/alighandour_featured-today-on-the-cover-page-of-al-akhbar-activity-7074321199274565633-yF8m" target="_blank">cover page</a> <i>(13 June 2023)</i>.</li>
-						<li><strong>VLM4EO project:</strong> Webinar & Live Demo by GEOAI members: "How segment anything (SAM) would revolutionize geospatial applications?" as part of African Women in GIS AI series <a href="https://www.youtube.com/watch?v=0gaQHdAFrzA" target="_blank">[Recording]</a> <a href="../media/SAM_26May2023/SAM_AliGhandour_26May2023.pdf" target="_blank">[Slides]</a> 
+						<li><strong>VLM4EO project:</strong> Webinar & Live Demo: "How segment anything (SAM) would revolutionize geospatial applications?" as part of African Women in GIS AI series <a href="https://www.youtube.com/watch?v=0gaQHdAFrzA" target="_blank">[Recording]</a> <a href="../media/SAM_26May2023/SAM_AliGhandour_26May2023.pdf" target="_blank">[Slides]</a> 
 						<a href="https://colab.research.google.com/github/geoaigroup/geogroup-website/blob/main/content/media/SAM_26May2023/SAM_GEOAI_Demo.ipynb" target="_blank">[Notebook]</a> <i>(26 May 2023)</i>.</li>
 						<li><strong>LOCR project</strong>: <a href="https://al-akhbar.com/Community/361987/" target="_blank">Featured in Al-Akhbar Newspaper</a><i>(4 May 2023)</i>.
 						</li>
