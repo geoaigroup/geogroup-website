@@ -41,7 +41,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year}, GEOAI group - built using <a href="https://github.com/wowchemy/wowchemy-hugo-themes/tree/main/starters/research-group" target=_blank>Wowchemy Hugo Research Group Theme</a>'
+    notice: '© {year}, GEOAI group - built using <a href="https://github.com/HugoBlox/hugo-blox-builder/tree/main/starters/research-group" target=_blank>Hugo Blox Research Group Theme</a>'
     license:
       enable: false
       allow_derivatives: false
