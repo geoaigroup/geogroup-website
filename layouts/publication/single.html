@@ -21,15 +21,15 @@
     {{ end }}
 
     {{/* If the type is Uncategorized, hide the type. */}}
-    {{ if ne $pub_type 0 }}
+    {{ if $pub_type_display }}
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication_type" }}</div>
           <div class="col-12 col-md-9">
-            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ $pub_type | anchorize }}">
-              {{ index $pub_types $pub_type }}
+            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ $pub_type_csl | anchorize }}">
+              {{ $pub_type_display }}
             </a>
           </div>
         </div>
