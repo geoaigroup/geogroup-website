@@ -2,7 +2,7 @@
 title: GeoUrban-AI Mapping
 summary: Urban Monitoring through Earth Observation
 
-draft: true
+draft: false
 featured: false
 tags:
   - Deep Learning
