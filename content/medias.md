@@ -5,7 +5,7 @@ widget: pages
 # Homepage is headless, other widget pages are not.
 headless: true
 
-title: "Tools & Media"
+title: ""
 
 ---
 
@@ -15,7 +15,7 @@ title: "Tools & Media"
 	<li><a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">Lebanese Urban Map</a> <i>(Coming Soon)</i>)</li>
 	<li><a href="http://geoai.cnrs.edu.lb/qaraaoun" target="_blank">Qaraaoun Dashboard</a></li>
 	<li><a href="" target="_blank">Wheat Monitoring Tool</a><i>(Coming Soon)</i>)</li>
-<br><br><br><br>
+<br><br>
 </ul>
 
 
