@@ -15,10 +15,11 @@ title: "Tools & Media"
 	<li><a href="http://geoai.cnrs.edu.lb/urbanmap/" target="_blank">Lebanese Urban Map</a> <i>(Coming Soon)</i>)</li>
 	<li><a href="http://geoai.cnrs.edu.lb/qaraaoun" target="_blank">Qaraaoun Dashboard</a></li>
 	<li><a href="" target="_blank">Wheat Monitoring Tool</a><i>(Coming Soon)</i>)</li>
+<br><br><br><br>
 </ul>
 
+
 <h1 class="mobile">Press & Media</h1>
-<br><br>
 <ul>
 	<li><strong>VLM4EO project:</strong> Live Demo session "Zero-Shot Buildings' Segmentation using SAM" as part of the <a href="https://noaaai2023.sched.com/event/1SA4X/live-demo-zero-shot-buildings-segmentation-using-sam" target=_blank>"5th NOAA AI workshop 2023"</a> that has more than 1000 registered participants <a href="https://ncsu.zoom.us/rec/play/OgcHgr7YvYXmoAWwaz8bp_VMFsjSTasFpHcP6fsIlzRf_BG9mot6kjfwXynvvIYlLcoibzqZbBEhowgJ.flNYlRkOXC7eZoUe?canPlayFromShare=true&from=share_recording_detail&startTime=1695056412000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fncsu.zoom.us%2Frec%2Fshare%2Fca8YOdXyDfMBDOto9eHqaoOcMzKRdg4LjqKtt2BPSxzzg96zEjGfKeY1dlIkdBCb.vStQgHc6ndVGDEHx%3FstartTime%3D1695056412000" target="_blank">[Recording]</a> <a href="../media/NOAAAI_GEOAI_18Sept2023.pdf" target="_blank">[Slides]</a> 
 	<a href="https://github.com/geoaigroup/GEOAI-ECRS2023/tree/main/5th%20NOAA%20AI%20Workshop" target="_blank">[Code Repo]</a> <i>(18 Sept 2023)</i>.</li>
