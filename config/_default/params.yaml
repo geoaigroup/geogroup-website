@@ -21,7 +21,7 @@ marketing:
     twitter: 'https://twitter.com/AliJGhandour'
   analytics:
     google_analytics: 'G-MB4KJ0Q1Q3'
-    google_tag_manager: 'ca-pub-6482896217859658'
+    google_tag_manager: ''
   verification:
     google: ''
     baidu: ''
