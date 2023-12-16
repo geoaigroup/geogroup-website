@@ -33,8 +33,8 @@ content:
         brightness: 0.7
         media: contact.jpg
         fit: cover
-    - title: Sci-Net👏
-      content: 'Our new paper <a href="https://link.springer.com/article/10.1007/s11760-023-02520-3" target=_blank> Sci-Net: </a>"scale-invariant model for buildings segmentation from aerial imagery" was just published online.'
+    - title: ECRS2023👏
+      content: '<a href="https://github.com/geoaigroup/geoai-ecrs2023" target=_blank> Repo </a>"for our 4 papers accepted at ECRS 2023.'
       align: center
       background:
         position: center
