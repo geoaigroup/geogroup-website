@@ -43,7 +43,7 @@ content:
         media: welcome.png
         fit: cover
     - title: Openings!
-      content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
+      content: 'Internship openings available. Send resume and cover letter👇'
       align: center
       background:
         position: center
