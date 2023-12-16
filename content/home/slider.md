@@ -34,13 +34,13 @@ content:
         media: contact.jpg
         fit: cover
     - title: ECRS2023👏
-      content: '<a href="https://github.com/geoaigroup/geoai-ecrs2023" target=_blank> Repo </a>"for our 4 papers accepted at ECRS 2023.'
+      content: '<a href="https://github.com/geoaigroup/geoai-ecrs2023" target=_blank> Repo </a>with details about our 4 papers accepted at ECRS 2023.'
       align: center
       background:
         position: center
         color: '#555'
         brightness: 0.7
-        media: scinet.jpg
+        media: welcome.png
         fit: cover
     - title: Openings!
       content: 'Internship and graduate thesis openings available. Send resume and cover letter👇'
@@ -49,7 +49,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: aerial.jpg
+        media: contact.jpg
         fit: cover
       link:
         icon: graduation-cap
