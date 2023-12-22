@@ -6,7 +6,7 @@
 publication_types: ["article-journal"]
 
 authors:
-  - hassan_nasrallah
+  - hasan_nasrallah
   - abed_samhat
   - Yilei Shi
   - Xiaoxiang Zhu
