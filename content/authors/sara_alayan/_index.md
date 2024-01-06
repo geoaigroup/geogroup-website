@@ -4,6 +4,7 @@ role:  Computer Engineering Student
 bio: null
 interests:
   - Deep Learning
+  - Computer Vision
 social:
   - icon: envelope
     icon_pack: fas
@@ -22,4 +23,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Sara Alayan** is pursuing a degree in Computer Engineering at the Lebanese University.
+**Sara Alayan** is a fourth-year Computer Engineering student interested in the AI field, especially deep learning and computer vision for its various applications.
