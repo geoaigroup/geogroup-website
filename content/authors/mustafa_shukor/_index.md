@@ -1,6 +1,6 @@
 ---
 title: Mustafa Shukor
-role: PhD Student
+role: PhD Candidate
 avatar_filename: avatar
 interests:
   - Deep Learning
