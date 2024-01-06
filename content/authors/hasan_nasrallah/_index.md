@@ -1,6 +1,6 @@
 ---
 title: Hasan Nasrallah
-role: Computer Vision Engineer
+role: Machine Learning Engineer
 bio: null
 interests:
   - Deep Learning
