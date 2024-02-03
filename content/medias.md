@@ -11,10 +11,10 @@ title: ""
 
 <h1 class="mobile">Tools</h1>
 <ul>
-	<li><a href="http://geoai.cnrs.edu.lb/urbanmodels/" target="_blank">GeoUrban-AI powered</a></li>
-	<li><a href="" target="_blank">Lebanese Urban Map</a> <i>(Coming Soon)</i>)</li>
-	<li><a href="http://geoai.cnrs.edu.lb/qaraaoun" target="_blank">Qaraaoun Dashboard</a></li>
-	<li><a href="" target="_blank">Wheat Monitoring Tool</a><i>(Coming Soon)</i>)</li>
+	<li><a href="http://geoai.cnrs.edu.lb/urbanmodels/" target="_blank">GeoUrban AI-powered Tool</a></li>
+	<li><a href="" target="_blank">Lebanese Urban Map</a> (<i>Coming Soon</i>)</li>
+	<li><a href="http://geoai.cnrs.edu.lb/qaraaoun" target="_blank">Qaraaoun Observatory Tool</a></li>
+	<li><a href="https://www.wasdi.net/#!/wheat_locator/appdetails" target="_blank">Wheat Monitoring Tool</a></li>
 <br><br>
 </ul>
 
