@@ -5,6 +5,8 @@ bio: null
 interests:
   - Deep learning
   - Computer Vision
+  - Computational Physics
+  - Electronics
 avatar_filename: avatar
 social:
   - display:
@@ -26,4 +28,4 @@ user_groups:
   - Members
 ---
 
-**Mohamad El Moussawi** is 
+**Mohamad El Moussawi** is a Physicist and Programmer.
