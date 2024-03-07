@@ -20,8 +20,8 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/lesawe/
-  - icon: globe
-    icon_pack: fab
+  - icon: link
+    icon_pack: fas
     link: https://supahaka.com/
 organizations:
   - name: GEOspatial Artificial Intelligence (GEOAI)
