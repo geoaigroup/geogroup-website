@@ -20,6 +20,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Alumni
+  - Members
 ---
-Reem is a
+**Reem Hammoud** is a

@@ -21,6 +21,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 **Louma Mehyeddine** is currently a Master's degree student and hold a Bachelor's degree in Computer Science from Lebanese University, with experience in Java, Android development, and Python. Her passion for Artificial Intelligence and Machine Learning drives her to seek further knowledge and expertise in these fields and pursue using it to tackle real-world problems.
