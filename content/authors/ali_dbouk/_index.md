@@ -24,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Ali Dbouk** is pursuing a degree in Computer Engineering at the Lebanese University. My journey in Computer and Communication Engineering at Lebanese University has equipped me with a strong foundation in programming languages like C++ and Python. But my thirst for knowledge doesn't stop there. I'm actively building my expertise in machine learning algorithms and honing my research skills through dedicated projects.
+**Ali Dbouk** is pursuing a degree in Computer Engineering at the Lebanese University. His journey in Computer and Communication Engineering at Lebanese University has equipped him with a strong foundation in programming languages like C++ and Python. But his thirst for knowledge doesn't stop there. Ali is actively building expertise in machine learning algorithms and honing his research skills through dedicated projects.
