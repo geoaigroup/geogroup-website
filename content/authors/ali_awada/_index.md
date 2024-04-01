@@ -24,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Ali Awada** is 
+**Ali Awada** is currently pursuing a computer and communications engineering degree at the Lebanese University, driven by a deep interest in leveraging AI tools for societal benefit and exploring the logic and research underpinning AI advancements. Alongside his univeristy studies, Ali is engaged in hands-on Arduino and microcontroller projects, while also delving into web application security to enhance digital system protection.
