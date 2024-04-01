@@ -12,7 +12,7 @@ social:
     link: mailto:aliawada5678 at gmail.com
   - icon: linkedin
     icon_pack: fab
-    link: 
+    link: https://lb.linkedin.com/in/ali-awada-8a11b3187
   - icon: github
     icon_pack: fab
     link: https://github.com/Ali-8765
