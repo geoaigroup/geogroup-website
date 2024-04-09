@@ -46,7 +46,7 @@ image:
   
 featured: false
 #doi: "10.1109/JSTARS.2022.3181446"
-date: "2024-10-03T00:00:00Z"
+date: "2024-03-25T00:00:00Z"
 
 abstract: "Developing countries usually lack the proper governance means to generate and regularly update a national rooftop map. Using traditional photogrammetry and surveying methods to produce a building map at the federal level is costly and time consuming. Using earth observation and deep learning methods, we can bridge this gap and propose an automated pipeline to fetch such national urban maps. This paper aims to exploit the power of fully convolutional neural networks for multi-class buildings' instance segmentation to leverage high object-wise accuracy results. Buildings' instance segmentation from sub-meter high-resolution satellite images can be achieved with relatively high pixel-wise metric scores. We detail all engineering steps to replicate this work and ensure highly accurate results in dense and slum areas witnessed in regions that lack proper urban planning in the Global South. We applied a case study of the proposed pipeline to Lebanon and successfully produced the first comprehensive national building footprint map with approximately 1 Million units with an 84% accuracy. The proposed architecture relies on advanced augmentation techniques to overcome dataset scarcity, which is often the case in developing countries."
 
