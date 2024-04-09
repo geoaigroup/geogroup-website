@@ -39,6 +39,9 @@ main:
   - name: Contact Us
     url: '#contact'
     weight: 90
-  - name: Tools & Media
-    url: 'medias'
+  - name: Catalogue
+    url: '#catalogue'
     weight: 100
+  - name: Media
+    url: 'medias'
+    weight: 110
