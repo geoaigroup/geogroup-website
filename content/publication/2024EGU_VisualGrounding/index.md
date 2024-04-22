@@ -24,7 +24,7 @@ url_poster: "FinalPoster_EGU2024.pdf"
 url_code: ""
 slides: null
 
-title: "Automated National Urban Map Extraction"
+title: "Efficient adaptation of Foundation Models for Visual Grounding Remote Sensing"
 #publication: "*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*"
 
 # Show publication and sharing statistics? (requires valid doi)
