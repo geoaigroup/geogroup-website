@@ -24,9 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Ali Kanbar** is a university student with skills in Python and a passion for Artificial Intelligence and Machine Learning. Actively learning, growing and expanding his knowledge and improving his skills
-
-
-
-
-
+**Ali Kanbar** is a university student with skills in Python and a passion for Artificial Intelligence and Machine Learning. Ali is actively learning, growing and expanding his knowledge and improving his skills.
