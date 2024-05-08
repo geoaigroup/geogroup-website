@@ -1,21 +1,20 @@
 ---
-title: Ali Kanbar
-role:  Computer Engineering Student
+title: Mohamad Chalhoub
+role:  Graduate Student
 bio: null
 interests:
+  - Programming
   - Deep Learning
-  - Computer Vision
-  - Algorithms
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:ali-kanbar at outlook.com
+    link: mailto:mohamad.chalhoub at outlook.fr
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/ali-kanbar/
+    link: https://lb.linkedin.com/in/mohamad-chalhoub-385499114
   - icon: github
     icon_pack: fab
-    link: https://github.com/ali-kanbar
+    link: https://github.com/MH-Chalhoub
 organizations:
   - name: Lebanese University
     url: null
@@ -24,4 +23,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Ali Kanbar** is 
+**Mohamad Chalhoub** is 
