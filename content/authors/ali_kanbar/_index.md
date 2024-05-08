@@ -1,11 +1,11 @@
 ---
 title: Ali Kanbar
-role:  Computer Engineering Student
+role: Computer and Communication Networks Engineering Student
 bio: null
 interests:
+  - Competitive Programming
+  - Artificial Intelligence
   - Deep Learning
-  - Computer Vision
-  - Algorithms
 social:
   - icon: envelope
     icon_pack: fas
@@ -24,4 +24,9 @@ superuser: false
 user_groups:
   - Members
 ---
-**Ali Kanbar** is 
+**Ali Kanbar** is a university student with skills in Python and a passion for Artificial Intelligence and Machine Learning. Actively learning, growing and expanding his knowledge and improving his skills
+
+
+
+
+
