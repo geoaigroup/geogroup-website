@@ -23,6 +23,6 @@ organizations:
 email: ""
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 **Haidar Jomaa** is a senior student pursuing a degree in Computer Science at the Lebanese University. His academic journey is fueled by enthusiasm for artificial intelligence and machine learning. Haidar actively engages in competitions centered around AI, alongside his academic pursuits where his aspirations extend to pursuing a Master's followed by a Ph.D delving deeper into the field of AI.
