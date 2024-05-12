@@ -10,3 +10,5 @@ title: "GEOAI Catalog"
 ---
 
 
+
+{{< catalog >}}

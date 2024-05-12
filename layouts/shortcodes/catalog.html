@@ -1,0 +1,363 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<hr>
+<div class="d-flex justify-content-between flex-wrap" id="main_cards_body">
+
+</div>
+<script src="https://unpkg.com/supercluster@8.0.0/dist/supercluster.min.js"></script>
+
+<script>
+class ClusterLayers {
+    constructor(map, source_name) {
+        this.map = map;
+        this.source = source_name;
+        this.circle_color = [
+            'step',
+            ['get', 'point_count'],
+        ];
+        this.circle_radius = [
+            'step',
+            ['get', 'point_count'],
+        ];
+        this.stepadded = false
+        this.finaladded = false
+        this.unclustered = ['#11b4da', 4, 1, '#fff']
+    }
+    addStep(count, radius, color) {
+        if (!this.finaladded) {
+            this.stepadded = true
+            this.circle_color.push(color);
+            this.circle_color.push(count);
+            this.circle_radius.push(radius);
+            this.circle_radius.push(count);
+            this.stepadded = true;
+        }
+        else {
+            console.log("Good lad don't add a step after setting the finals")
+        }
+    }
+    setFinal(radius, color) {
+        if (this.stepadded) {
+            this.circle_color.push(color);
+            this.circle_radius.push(radius);
+            this.finaladded = true;
+        }
+        else {
+            console.log("Good lad don't add the finals before at least one step")
+        }
+    }
+    SetUnclustered(color, radius, stroke_width, stroke_color) {
+        this.unclustered = [color, radius, stroke_width, stroke_color]
+    }
+
+    apply() {
+        if (this.stepadded && this.finaladded) {
+            this.map.addLayer({
+                id: 'clusters',
+                type: 'circle',
+                source: this.source,
+                filter: ['has', 'point_count'],
+                paint: {
+                    'circle-color': this.circle_color,
+                    'circle-radius': this.circle_radius
+                }
+            });
+
+            this.map.addLayer({
+                id: 'cluster-count',
+                type: 'symbol',
+                source: this.source,
+                filter: ['has', 'point_count'],
+                layout: {
+                    'text-field': ['get', 'point_count_abbreviated'],
+                    'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                    'text-size': 12
+                }
+            });
+
+            this.map.addLayer({
+                id: 'unclustered-point',
+                type: 'circle',
+                source: this.source,
+                filter: ['!', ['has', 'point_count']],
+                paint: {
+                    'circle-color': this.unclustered[0],
+                    'circle-radius': this.unclustered[1],
+                    'circle-stroke-width': this.unclustered[2],
+                    'circle-stroke-color': this.unclustered[3]
+                }
+            });
+        }
+        else {
+            console.log("Good lad don't apply before adding a step and the finals")
+        }
+    }
+
+}
+class MapCard {
+    static token = "";
+    static declared = false;
+    static setToken(token) { MapCard.token = token; }
+
+    constructor(title, description, cards_container_id, map) {
+        // To run one time :
+        if (!MapCard.declared) {
+            MapCard.declared = true;
+            mapboxgl.accessToken = MapCard.token;// set token
+            // Arabic Plugin
+            mapboxgl.setRTLTextPlugin(
+                'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
+                null,
+                true
+            );
+
+        }
+        this.title = title;//card title
+        this.description = description;//card Discription
+        this.cards_container_id = cards_container_id;// container id
+        this.map = map;// the map object
+        this.map_container = map.container;// id of the map...
+
+    }
+    // Print the card in the container div :
+    printCard() {
+        document.getElementById(this.cards_container_id).innerHTML += `
+        <div class="card w-100" style="">
+            <div id='${this.map.container}' class="w-100" style=' height: 300px;' ></div>
+            <div class="card-body">
+                <div id='${this.map.container}selector' ></div>
+                <h5 class="card-title">${this.title}</h5>
+                <p class="card-text">${this.description}</p>
+                <div id = '${this.map.container}Load'></div>
+            </div>
+        </div>`
+    }
+    // Adding Changing The Base Map feature
+    addStyleSelector() {
+        document.getElementById(this.map_container + 'selector').innerHTML = `
+        <select class="form-select  mb-3" id='${this.map_container}Select' aria-label="Slect Layer">
+            <option value="dark-v11" selected>Dark</option>
+            <option value="light-v11" >Light</option>
+            <option value="streets-v12" >Streets</option>
+            <option value="outdoors-v12" >Outdoors</option>
+            <option value="satellite-streets-v12" >Satellite</option>
+        </select>
+        `;
+        var select = document.getElementById(this.map_container + "Select")
+        select.onchange = () => { this.map.setStyle('mapbox://styles/mapbox/' + select.value); };
+    }
+    loadMap() { this.map = new mapboxgl.Map(this.map); }
+    getMap() { return this.map; }
+    // this source url will be used in fetching the data
+    setSourceUrl(url) { this.source_url = url; }
+    fetchCentroids(bounding = true, zoom_threshold = 10) {
+        if (this.map.getZoom() >= zoom_threshold) {
+            if (bounding) {
+                var bounds = this.map.getBounds();
+                var ne = bounds.getNorthEast();
+                var sw = bounds.getSouthWest();
+                var url_to_fetch = this.source_url + '&bbox=' + sw.lat + ',' + sw.lng + ',' + ne.lat + ',' + ne.lng
+            }
+            else {
+                url_to_fetch = this.source_url;
+            }
+            fetch(url_to_fetch)
+                .then(response => response.json())
+                .then(data => {
+                    this.centroids.forEach(marker => {
+                        marker.remove();
+                    });
+                    data.features.forEach(feature => {
+                        var coordinates = feature.geometry.coordinates;
+                        // Add a symbol to represent the centroid
+                        var marker = new mapboxgl.Marker({
+                            color: "#FFFFFF",
+                            scale: 0.2,
+                        })
+                            .setLngLat(coordinates)
+                            .addTo(this.map);
+                        this.centroids.push(marker);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching centroids from GeoServer:', error);
+                });
+        }
+
+    }
+    clientFetcher(bounding = true, zoom_threshold = 10) { this.centroids = []; this.map.on('moveend', () => { this.fetchCentroids(bounding = bounding, zoom_threshold = zoom_threshold); }); }
+    serverCluster(first = true) {
+        var map = this.map
+        this.map.on('load', function () {
+            map.addSource('clusters', {
+                type: 'geojson',
+                data: {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "My Point",
+                        "description": "This is a point"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [0, 0]
+                    }
+                }
+
+            });
+
+            var cluster_layers = new ClusterLayers(map, 'clusters');
+            cluster_layers.addStep(100, 20, "#e51e1e")
+            cluster_layers.addStep(750, 30, "#ffffff")
+            cluster_layers.setFinal(40, "#ffa657")
+            cluster_layers.SetUnclustered("#e9bf48", 5, 1, "#69c0ff")
+            cluster_layers.apply()
+
+        });
+
+
+        this.fetchClusters();
+        if (first) { this.map.on('moveend', () => { this.fetchClusters(); }); } else {
+            // on changing base map style the source is cleared so we need to reset it 
+            this.map.addSource('clusters', {
+                type: 'geojson',
+                data: {
+                    "type": "Feature",
+                    "properties": {
+                        "name": "My Point",
+                        "description": "This is a point"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [0, 0]
+                    }
+                }
+
+            });
+
+            var cluster_layers = new ClusterLayers(this.map, 'clusters');
+            cluster_layers.addStep(100, 20, "#e51e1e")
+            cluster_layers.addStep(750, 30, "#ffffff")
+            cluster_layers.setFinal(40, "#ffa657")
+            cluster_layers.SetUnclustered("#e9bf48", 5, 1, "#69c0ff")
+            cluster_layers.apply()
+        }
+    }
+    fetchClusters() {
+        fetch(`${this.source_url}?zoom=${this.map.getZoom()}&bbox=${this.map.getBounds().toArray().join(',')}`)
+            .then(response => response.json())
+            .then(data => {
+                
+                // Putting Data in GeoJson Format
+                var geojsonData = {
+                    type: "FeatureCollection",
+                    features: data
+                };
+                // 
+                JSON.stringify(geojsonData);
+                console.log(geojsonData)
+                // Set Data
+                if (!(this.map.getSource('clusters'))) {
+                    this.serverCluster(false)
+
+                }
+                this.map.getSource('clusters').setData(geojsonData);
+
+                // Update the cluster layer
+                this.map.setLayoutProperty('clusters', 'visibility', 'visible');
+
+                // Update the cluster count labels layer
+                this.map.setLayoutProperty('cluster-count', 'visibility', 'visible');
+
+            })
+            .catch(error => {
+                console.error('Error fetching centroids from GeoServer:', error);
+            });
+    };
+
+
+    clientCluster(url, buttonLoaderCase = false) {
+
+        this.map.addSource('clusters', {
+            type: 'geojson',
+            data: url,
+            cluster: true,
+            clusterMaxZoom: 14, // Max zoom to cluster points on
+            clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+        });
+
+        var cluster_layers = new ClusterLayers(map, 'clusters');
+        cluster_layers.addStep(100, 20, "#e51e1e")
+        cluster_layers.addStep(750, 30, "#ffffff")
+        cluster_layers.setFinal(40, "#ffa657")
+        cluster_layers.SetUnclustered("#e9bf48", 5, 1, "#69c0ff")
+        cluster_layers.apply()
+        if (buttonLoaderCase) {
+            // Once the map finishes loading
+            this.map.on('idle', () => {
+                // Set button text to "loaded completely"
+                const button = document.getElementById(this.map_container + 'Load').querySelector('button');
+                button.className = 'btn w-100 btn-success p-2';
+                button.textContent = 'Loaded completely';
+                button.disabled = true;
+            });
+        }
+    }
+    clusterLoadButton() {
+        // Create a button element
+        const button = document.createElement('button');
+        button.textContent = 'Load Cluster Map';
+        button.addEventListener('click', () => {
+            button.disabled = true;
+            button.textContent = "Loading ...";
+            this.clientCluster(this.source_url, true); // Call clientCluster function when button is clicked
+        });
+        button.className = "btn w-100 btn-info text-white p-2"
+
+        document.getElementById(this.map_container + 'Load').appendChild(button);
+
+    }
+    setMaxZoom(zoom) { this.map.setMaxZoom(zoom); }
+    setMinZoom(zoom) { this.map.setMinZoom(zoom); }
+    setBounds(bounds) { this.map.setMaxBounds(bounds); }
+    addGeoLocator() {
+        this.map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: true,
+            })
+        );
+    }
+    addNavigation() { this.map.addControl(new mapboxgl.NavigationControl()); }
+    addScale() { this.map.addControl(new mapboxgl.ScaleControl()); }
+    addFullScreen() { this.map.addControl(new mapboxgl.FullscreenControl()); }
+}
+
+
+    MapCard.setToken("pk.eyJ1IjoibWhkMTIzbXN3aSIsImEiOiJjamp0azg5OHAyaGIxM3Fvbjc0b3pvZ2VpIn0.vmB_VWu_ewHeNBtoEtdt7Q");
+    card = new MapCard(" The Lebanese Urban Map", "The first comprehensive Lebanese Urban Map was completely autonomously generated using  Deep Learning Models that were developed and tested at the National Council for Scientific Research (CNRS).", "main_cards_body", {
+        container: 'map1',
+        style: 'mapbox://styles/mapbox/dark-v11',
+        center: [36, 34],
+        zoom: 6.5
+    });
+
+    card.printCard();
+
+    card.loadMap();
+    card.addFullScreen();
+    card.addNavigation()
+    card.addScale()
+    card.addStyleSelector()
+    card.addGeoLocator()
+    card.setSourceUrl("https://geoai.cnrs.edu.lb/geoaigeoserver");
+    card.serverCluster()
+
+
+
+</script>
