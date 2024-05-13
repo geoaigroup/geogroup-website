@@ -128,8 +128,8 @@
 
         }
         // Print the card in the container div :
-        printCard() {
-            document.getElementById(this.cards_container_id).innerHTML += `
+        printCard() {// Use insertAdjacentHtml instead of innerHtml (to just add the additional html without removing and re-puting the existing ones)
+            document.getElementById(this.cards_container_id).insertAdjacentHTML('beforeend',`
         <div class="card w-100" style="">
             <div id='${this.map.container}' class="w-100" style=' height: 300px;' ></div>
             <div class="card-body">
@@ -139,7 +139,7 @@
                 <p class="card-text">${this.description}</p>
                 <div id = '${this.map.container}Load'></div>
             </div>
-        </div>`
+        </div>`) 
         }
         // Adding Changing The Base Map feature
         addStyleSelector() {
@@ -346,11 +346,11 @@
             // Update the cluster count labels layer
             this.map.setLayoutProperty('cluster-count', 'visibility', 'visible');
         }
-        clientCluster(url, buttonLoaderCase = false) {
+        clientCluster(buttonLoaderCase = false) {
 
             this.map.addSource('clusters', {
                 type: 'geojson',
-                data: url,
+                data: this.source_url,
                 cluster: true,
                 clusterMaxZoom: 14, // Max zoom to cluster points on
                 clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
