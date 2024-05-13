@@ -36,12 +36,12 @@ main:
 #  - name: Dataset
 #    url: '#dataset'
 #    weight: 80
-  - name: Contact Us
-    url: '#contact'
-    weight: 90
   - name: Catalog
     url: 'catalogue'
-    weight: 100
+    weight: 80
   - name: Media
     url: 'medias'
-    weight: 110
+    weight: 90
+  - name: Contact Us
+    url: '#contact'
+    weight: 100
