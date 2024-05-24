@@ -3,11 +3,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.3/mapbox-gl-draw.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.3/mapbox-gl-draw.css"
+    type="text/css">
+
 
 <hr>
+
 <div class="d-flex justify-content-between flex-wrap" id="main_cards_body">
 
 </div>
+
+
 <script src="https://unpkg.com/supercluster@8.0.0/dist/supercluster.min.js"></script>
 
 <script>
@@ -26,6 +34,7 @@
             this.stepadded = false
             this.finaladded = false
             this.unclustered = ['#11b4da', 4, 1, '#fff']
+
         }
         addStep(count, radius, color) {
             if (!this.finaladded) {
@@ -125,21 +134,26 @@
             this.cache_max_zoom = 0;
             this.cache_number = 0;
             this.cache_loaded = 0;
+            this.url_additional_parameters = ""
+            this.steps_with_time = []
 
         }
         // Print the card in the container div :
         printCard() {// Use insertAdjacentHtml instead of innerHtml (to just add the additional html without removing and re-puting the existing ones)
-            document.getElementById(this.cards_container_id).insertAdjacentHTML('beforeend',`
+            document.getElementById(this.cards_container_id).insertAdjacentHTML('beforeend', `
         <div class="card w-100" style="">
             <div id='${this.map.container}' class="w-100" style=' height: 300px;' ></div>
             <div class="card-body">
+                <div id='${this.map.container}drawer' ></div>
+                <div id='${this.map.container}drawerdownload' ></div>
                 <div id='${this.map.container}loader' ></div>
+                <div id='${this.map.container}time' ></div>
                 <div id='${this.map.container}selector' ></div>
                 <h5 class="card-title">${this.title}</h5>
                 <p class="card-text">${this.description}</p>
                 <div id = '${this.map.container}Load'></div>
             </div>
-        </div>`) 
+        </div>`)
         }
         // Adding Changing The Base Map feature
         addStyleSelector() {
@@ -159,6 +173,7 @@
         getMap() { return this.map; }
         // this source url will be used in fetching the data
         setSourceUrl(url) { this.source_url = url; }
+        setSourceUrlParam(param) { this.url_additional_parameters = param; }
         fetchCentroids(bounding = true, zoom_threshold = 10) {
             if (this.map.getZoom() >= zoom_threshold) {
                 if (bounding) {
@@ -231,7 +246,32 @@
                 console.log("good lad, set the caches from lower zoom level to the highest ")
             }
         }
+        addTimeStep(title, url_parameter) {
+            this.steps_with_time.push([title, url_parameter])
+        }
+        addTimeFilter() {
+            if (this.steps_with_time.length > 0) {
+                document.getElementById(this.map_container + 'time').innerHTML = `
+                <div class="w-100">
+                    <label id="${this.map_container}timelabel"></label>
+                    <input id="${this.map_container}slider" type="range" min="0" max="${this.steps_with_time.length-1}" step="1" value="0">
+                </div>
+                `
+                document.getElementById(this.map_container + 'slider').addEventListener('input', (e) => {
+                    this.url_additional_parameters= this.steps_with_time[e.target.value][1]
+                    document.getElementById(this.map_container + 'timelabel').innerHTML=this.steps_with_time[e.target.value][0]
+                    this.fetchClusters();
+                });
+                this.url_additional_parameters= this.steps_with_time[0][1]
+                document.getElementById(this.map_container + 'timelabel').innerHTML=this.steps_with_time[0][0]
+                this.fetchClusters();
+
+            } else {
+                console.log("Please add Time Step First")
+            }
+        }
         serverCluster(first = true) {
+
             var map = this.map
             this.map.on('load', function () {
                 map.addSource('clusters', {
@@ -301,7 +341,7 @@
 
         }
         fetchClusters() {
-            fetch(`${this.source_url}?zoom=${this.map.getZoom()}&bbox=${this.map.getBounds().toArray().join(',')}`)
+            fetch(`${this.source_url}?zoom=${this.map.getZoom()}&bbox=${this.map.getBounds().toArray().join(',')}${this.url_additional_parameters}`)
                 .then(response => response.json())
                 .then(data => {
                     this.updateClusters(data)
@@ -403,16 +443,105 @@
         addNavigation() { this.map.addControl(new mapboxgl.NavigationControl()); }
         addScale() { this.map.addControl(new mapboxgl.ScaleControl()); }
         addFullScreen() { this.map.addControl(new mapboxgl.FullscreenControl()); }
+        // Drawing 
+        addDrawing(polygon = true, point = false, line_string = false) {
+            this.draw = new MapboxDraw({
+                displayControlsDefault: false,
+                controls: {
+                    polygon: polygon,
+                    point: point,
+                    line_string: line_string,
+                    trash: true
+                }
+            });
+            this.map.addControl(this.draw)
+        }
+        ShowDrawingArea() {
+            if (this.draw) {
+                this.map.on('draw.selectionchange', (e) => {
+                    const selected = e.features[0];
+                    if (selected && selected.geometry.type === 'Polygon') {
+                        const area = this.PolygonArea(selected);
+                        console.log(`Selected area: ${area} square meters`);
+                        document.getElementById(this.map_container + 'drawer').innerHTML = `<div class= "text-center w-100 my-2 ">The Selected Polygon Area is <span class="text-info" >${area} square meters</span></div>`
+                    }
+                });
+            } else {
+                console.log("addDrawing First")
+            }
+        }
+        DownloadDrawingArea() {
+            if (this.draw) {
+                this.map.on('draw.selectionchange', (e) => {
+                    const selected = e.features[0];
+                    if (selected && selected.geometry.type === 'Polygon') {
+                        const coordinates = selected.geometry.coordinates[0];
+                        const bounds = coordinates.reduce((bounds, coord) => {
+                            return bounds.extend(coord);
+                        }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
+
+                        const southWest = bounds.getSouthWest();
+                        const northEast = bounds.getNorthEast();
+                        const center = bounds.getCenter();
+
+                        const mapDim = {
+                            width: window.innerWidth,
+                            height: window.innerHeight
+                        };
+
+                        const zoom = this.calculateZoom(bounds, mapDim);
+                        const url = `https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/static/${center.lng},${center.lat},${zoom}/1200x1200?access_token=${mapboxgl.accessToken}`;
+                        document.getElementById(this.map_container + 'drawerdownload').innerHTML = `<div class= "text-center w-100 my-2 "><a href="${url}" target='_blank' class="text-decoration-none btn btn-primary">Open Up the </a></div>`
+                    }
+                });
+
+            } else {
+                console.log("addDrawing First")
+            }
+        }
+        calculateZoom(bounds, mapDim) {
+            const WORLD_DIM = { height: 256, width: 256 };
+            const ZOOM_MAX = 22;
+
+            function latRad(lat) {
+                const sin = Math.sin(lat * Math.PI / 180);
+                const radX2 = Math.log((1 + sin) / (1 - sin)) / 2;
+                return Math.max(Math.min(radX2, Math.PI), -Math.PI) / 2;
+            }
+
+            function zoom(mapPx, worldPx, fraction) {
+                return Math.floor(Math.log(mapPx / worldPx / fraction) / Math.LN2);
+            }
+
+            const latFraction = (latRad(bounds.getNorth()) - latRad(bounds.getSouth())) / Math.PI;
+
+            const lngDiff = bounds.getEast() - bounds.getWest();
+            const lngFraction = ((lngDiff < 0 ? (lngDiff + 360) : lngDiff) / 360);
+
+            const latZoom = zoom(mapDim.height, WORLD_DIM.height, latFraction);
+            const lngZoom = zoom(mapDim.width, WORLD_DIM.width, lngFraction);
+
+            return Math.min(latZoom, lngZoom, ZOOM_MAX);
+        }
+        PolygonArea(feature) {
+            if (feature.geometry.type === 'Polygon') {
+                return turf.area(feature);
+            }
+            return 0;
+        }
+
+
     }
 
 
     MapCard.setToken("pk.eyJ1IjoibWhkMTIzbXN3aSIsImEiOiJjamp0azg5OHAyaGIxM3Fvbjc0b3pvZ2VpIn0.vmB_VWu_ewHeNBtoEtdt7Q");
     card = new MapCard(" The Lebanese Urban Map", "The first comprehensive Lebanese Urban Map was completely autonomously generated using  Deep Learning Models that were developed and tested at the National Council for Scientific Research (CNRS).", "main_cards_body", {
         container: 'map1',
-        style: 'mapbox://styles/mapbox/dark-v11',
+        style: 'mapbox://styles/mapbox/satellite-streets-v12',
         center: [36, 34],
         zoom: 6.5
     });
+
 
     card.printCard();
 
@@ -422,6 +551,7 @@
     card.addScale()
     card.addStyleSelector()
     card.addGeoLocator()
+
     card.setCache([8, 'https://geoai.cnrs.edu.lb/geoaigeoserver/static/deja_clustered/lebanon_6.json'])
     card.setCache([9, 'https://geoai.cnrs.edu.lb/geoaigeoserver/static/deja_clustered/lebanon_7.json'])
     card.setCache([10, 'https://geoai.cnrs.edu.lb/geoaigeoserver/static/deja_clustered/lebanon_8.json'])
@@ -432,6 +562,34 @@
     card.setSourceUrl("https://geoai.cnrs.edu.lb/geoaigeoserver");
     card.serverCluster()
 
+    wheat_card = new MapCard("The Lebanese Wheat Map", "The first Lebanese Wheat Map completely autonomously generated using Deep Learning Models By GeoAI Group", "main_cards_body", {
+        container: 'map2',
+        style: 'mapbox://styles/mapbox/satellite-streets-v12',
+        center: [36, 34],
+        zoom: 6.5
+    });
 
+    wheat_card.printCard();
+    wheat_card.loadMap();
+    wheat_card.addFullScreen();
+    wheat_card.addNavigation();
+    wheat_card.addScale()
+    wheat_card.addStyleSelector()
+    wheat_card.addGeoLocator()
+    wheat_card.setSourceUrl("https://geoai.cnrs.edu.lb/geoaigeoserver/wheat");
+    wheat_card.serverCluster();
+    wheat_card.addTimeStep("2016","&year=2016")
+    wheat_card.addTimeStep("2017","&year=2017")
+    wheat_card.addTimeStep("2018","&year=2018")
+    wheat_card.addTimeStep("2019","&year=2019")
+    wheat_card.addTimeStep("2020","&year=2020")
+    wheat_card.addTimeStep("2021","&year=2021")
+    wheat_card.addTimeStep("2022","&year=2022")
+    wheat_card.addTimeStep("2023","&year=2023")
+    wheat_card.addTimeFilter()
+
+    // card.addDrawing()
+    // card.ShowDrawingArea()
+    // card.DownloadDrawingArea()
 
 </script>
