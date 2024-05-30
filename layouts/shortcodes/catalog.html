@@ -523,7 +523,7 @@
                         const zoom = this.calculateZoom(bounds, mapDim);
                         const url = `https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v12/static/${center.lng},${center.lat},${zoom}/1200x1200?access_token=${mapboxgl.accessToken}`;
                         document.getElementById(this.map_container + 'drawerdownload').innerHTML = `<div class= "text-left w-100 my-2 ">
-                            <a href="${url}" target='_blank' class="text-decoration-none btn btn-light h6" download>Download</a>
+                            <a href="${url}" target='_blank' class="text-decoration-none btn btn-light h6" download>Download Satellite Image</a>
                             </div>`
                     }
                 });
@@ -623,8 +623,5 @@
 
 
 
-    wheat_card.addDrawing()
-    wheat_card.ShowDrawingArea()
-    wheat_card.DownloadDrawingArea()
 
 </script>
