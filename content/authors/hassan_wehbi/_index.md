@@ -3,9 +3,9 @@ title: Hassan Wehbi
 role: Computer Engineer
 bio: null
 interests:
-  - Machine Learning
-  - Data Analysis
-  - Data Visualization
+  - Computer Vision
+  - Software Development
+  - Game Development
 social:
   - icon: envelope
     icon_pack: fas
@@ -17,11 +17,11 @@ social:
     icon_pack: fab
     link: https://github.com/HassanBWehbi
 organizations:
-  - name: GEOspatial Artificial Intelligence (GEOAI)
+  - name: American University of Beirut
     url: null
 email: ""
 superuser: false
 user_groups:
   - Members
 ---
-**Hassan Wehbi** is .
+**Hassan Wehbi** is a Computer Science Engineer from the American University of Beirut, with a strong background in algorithms and programming. He specializes in Machine Learning, particularly in the areas of Computer Vision, and possesses exceptional skills as a software developer. In his free time, Hassan enjoys developing games that blend storytelling with innovative mechanics. He is always exploring new ways to integrate AI into gaming experiences.
