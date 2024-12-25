@@ -1,6 +1,6 @@
 ---
 title: Abbas Naim
-role:  Computer Science Student
+role:  Computer Engineering Student
 bio: null
 interests:
   - Programming
@@ -24,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Abbas Naim** is a driven first year Computer Science student at AUB with experience in Python, REACT, SQL and Java.
+**Abbas Naim** is a driven Computer Engineering student at AUB with experience in Python, REACT, SQL and Java.
