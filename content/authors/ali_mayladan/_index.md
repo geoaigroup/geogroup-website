@@ -24,7 +24,7 @@ organizations:
     url: null
 superuser: false
 user_groups:
-  - Members
+  - Alumni
 ---
 
 **Ali Mayladan** is currently pursuing his M2 in Data Science for Risk Analysis - Computer Science Department - Lebanese University (LU). He previously graduated from LU with Master and Bachelor's degree in Computer Science. Ali's goal is to work on latest AI systems and specially deep learning systems and push them to the limits in order to make real life problems more easier.
