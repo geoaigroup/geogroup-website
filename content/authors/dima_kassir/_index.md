@@ -1,6 +1,6 @@
 ---
 title: Dima Kassir
-role: Research Intern
+role: Math Student
 bio: null
 interests:
   - Machine Learning
@@ -17,7 +17,7 @@ social:
     icon_pack: fab
     link: https://github.com/DimaKassir
 organizations:
-  - name: GEOspatial Artificial Intelligence (GEOAI)
+  - name: Amerincan University of Beirut
     url: null
 email: ""
 superuser: false
