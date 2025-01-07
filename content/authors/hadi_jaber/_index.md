@@ -3,8 +3,8 @@ title: Hadi Jaber
 role:  Computer Engineering Student
 bio: null
 interests:
+  - Machine Learning
   - Programming
-  - Web Development
   - Algorithms
 social:
   - icon: envelope
@@ -24,4 +24,4 @@ superuser: false
 user_groups:
   - Members
 ---
-**Hadi Jaber** is .
+**Hadi Jaber** is pursuing a degree in Computer and Telecommunication Engineering at the Lebanese University. Through his academic journey, he has developed a strong foundation in programming and algorithms while actively honing his skills in machine learning and research. Fueled by a deep curiosity and a drive to continuously learn, Hadi is passionate about leveraging technology to drive innovation and exploring the intersection of artificial intelligence and real-world applications.
